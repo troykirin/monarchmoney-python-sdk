@@ -23,47 +23,47 @@ class MonarchCLI:
         try:
             print("\n🔄 Fetching accounts...")
             accounts = await self.mm.get_accounts()
-            
+
             # Save accounts data
             with open("accounts_data.json", "w") as f:
                 json.dump(accounts, f, indent=2)
-            
+
             # Display summary
             account_list = accounts.get('accounts', [])
             print(f"\n✅ Successfully retrieved {len(account_list)} accounts")
-            
+
             total_assets = 0
             total_liabilities = 0
-            
+
             print("\n" + "="*60)
             for account in account_list:
                 balance = account.get('currentBalance', 0)
                 if balance is None:
                     balance = 0
                 is_asset = account.get('isAsset', True)
-                
+
                 if is_asset:
                     total_assets += balance
                 else:
                     total_liabilities += abs(balance)
-                
+
                 print(f"\n📊 {account.get('displayName', 'Unknown')}")
                 print(f"   Type: {account.get('type', {}).get('display', 'Unknown')}")
                 print(f"   Balance: ${balance:,.2f}")
                 print(f"   Institution: {account.get('institution', {}).get('name', 'Unknown')}")
                 print(f"   Asset: {'Yes' if is_asset else 'No (Liability)'}")
-                
+
                 # Show additional details if available
                 if account.get('lastUpdatedAt'):
                     print(f"   Last Updated: {account.get('lastUpdatedAt')}")
-            
+
             print("\n" + "="*60)
             print(f"\n💰 Total Assets: ${total_assets:,.2f}")
             print(f"💳 Total Liabilities: ${total_liabilities:,.2f}")
             print(f"📈 Net Worth: ${(total_assets - total_liabilities):,.2f}")
-            
+
             print(f"\n✅ Data saved to accounts_data.json")
-            
+
         except Exception as e:
             print(f"\n❌ Error: {e}")
             print("\nPossible issues:")
@@ -77,11 +77,11 @@ class MonarchCLI:
         try:
             print("\n🔄 Fetching recent transactions...")
             transactions = await self.mm.get_transactions(limit=limit)
-            
+
             # Display recent transactions
             transaction_list = transactions.get('allTransactions', {}).get('results', [])
             print(f"\n✅ Successfully retrieved {len(transaction_list)} recent transactions")
-            
+
             print("\n" + "="*60)
             for transaction in transaction_list:
                 print(f"\n💸 {transaction.get('merchant', {}).get('name', 'Unknown')}")
@@ -92,7 +92,7 @@ class MonarchCLI:
                 if transaction.get('notes'):
                     print(f"   Notes: {transaction.get('notes')}")
             print("\n" + "="*60)
-            
+
         except Exception as e:
             print(f"\n❌ Error: {e}")
             print("\nPossible issues:")
@@ -105,7 +105,7 @@ class MonarchCLI:
 def get_token() -> str:
     """Get token from environment variable or prompt user."""
     token = os.getenv('MONARCH_TOKEN')
-    
+
     if not token:
         print("⚠️  No MONARCH_TOKEN environment variable found.")
         print("\nTo get your token:")
@@ -115,11 +115,11 @@ def get_token() -> str:
         print("4. Look for any GraphQL request")
         print("5. Check the Request Headers for 'Authorization: Token YOUR_TOKEN_HERE'")
         print("\nThen set it with: export MONARCH_TOKEN='your_token_here'")
-        
+
         token = input("\nPaste your token here (or press Enter to exit): ").strip()
         if not token:
             sys.exit(1)
-    
+
     return token
 
 
