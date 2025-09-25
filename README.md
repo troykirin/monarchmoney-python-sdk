@@ -13,6 +13,13 @@ Clone this repository from Git
 ## Via `pip`
 
 `pip install monarchmoney`
+
+## Examples
+
+See the `examples/` directory for complete working examples:
+- `examples/main.py` - Basic usage with interactive login
+- `examples/get_accounts_with_token.py` - Token-based authentication
+
 # Instantiate & Login
 
 There are two ways to use this library: interactive and non-interactive.
@@ -101,7 +108,7 @@ As of writing this README, the following methods are supported:
 
 - `get_accounts` - gets all the accounts linked to Monarch Money
 - `get_account_holdings` - gets all of the securities in a brokerage or similar type of account
-- `get_account_type_options` - all account types and their subtypes available in Monarch Money- 
+- `get_account_type_options` - all account types and their subtypes available in Monarch Money-
 - `get_account_history` - gets all daily account history for the specified account
 - `get_institutions` -- gets institutions linked to Monarch Money
 - `get_budgets` — all the budgets and the corresponding actual amounts
@@ -110,7 +117,7 @@ As of writing this README, the following methods are supported:
 - `get_transactions_summary` - gets the transaction summary data from the transactions page
 - `get_transactions` - gets transaction data, defaults to returning the last 100 transactions; can also be searched by date range
 - `get_transaction_categories` - gets all of the categories configured in the account
-- `get_transaction_category_groups` all category groups configured in the account- 
+- `get_transaction_category_groups` all category groups configured in the account-
 - `get_transaction_details` - gets detailed transaction data for a single transaction
 - `get_transaction_splits` - gets transaction splits for a single transaction
 - `get_transaction_tags` - gets all of the tags configured in the account
@@ -145,14 +152,14 @@ If you plan to submit up a pull request, you can expect a timely review.  There 
 
   - Configure your IDE or manually run [Black](https://github.com/psf/black) to auto-format the code.
   - Ensure you run the unit tests in this project!
-    
+
 Actions are configured in this repo to run against all PRs and merges which will block them if a unit test fails or Black throws an error.
 
 # FAQ
 
 **How do I use this API if I login to Monarch via Google?**
 
-If you currently use Google or 'Continue with Google' to access your Monarch account, you'll need to set a password to leverage this API.  You can set a password on your Monarch account by going to your [security settings](https://app.monarchmoney.com/settings/security).  
+If you currently use Google or 'Continue with Google' to access your Monarch account, you'll need to set a password to leverage this API.  You can set a password on your Monarch account by going to your [security settings](https://app.monarchmoney.com/settings/security).
 
 Don't forget to use a password unique to your Monarch account and to enable multi-factor authentication!
 
