@@ -6,9 +6,9 @@ import os
 import pickle
 import time
 from datetime import datetime, date, timedelta
-from typing import Any, Dict, List, Optional, Union
+from typing import Any, Dict, List, Optional, Union, Sequence
 
-import oathtool
+import oathtool  # type: ignore
 from aiohttp import ClientSession, FormData
 from aiohttp.client import DEFAULT_TIMEOUT
 from gql import Client, gql
@@ -315,10 +315,10 @@ class MonarchMoney(object):
 
     async def get_aggregate_snapshots(
         self,
-        start_date: Optional[date] = None,
-        end_date: Optional[date] = None,
+        start_date: Optional[str] = None,
+        end_date: Optional[str] = None,
         account_type: Optional[str] = None,
-    ) -> dict:
+    ) -> Dict[str, Any]:
         """
         Retrieves the daily net value of all accounts, optionally between `start_date` and `end_date`,
         and optionally only for accounts of type `account_type`.
@@ -535,7 +535,7 @@ class MonarchMoney(object):
             """
         )
 
-        variables = {
+        variables: Dict[str, Any] = {
             "id": str(account_id),
         }
 
@@ -1540,47 +1540,50 @@ class MonarchMoney(object):
         """
         )
 
-        variables = {
-            "offset": offset,
-            "limit": limit,
-            "orderBy": "date",
-            "filters": {
-                "search": search,
-                "categories": category_ids,
-                "accounts": account_ids,
-                "tags": tag_ids,
-            },
+        filters: Dict[str, Any] = {
+            "search": search,
+            "categories": category_ids,
+            "accounts": account_ids,
+            "tags": tag_ids,
         }
 
         # If bool filters are not defined (i.e. None), then it should not apply the filter
         if has_attachments is not None:
-            variables["filters"]["hasAttachments"] = has_attachments
+            filters["hasAttachments"] = has_attachments
 
         if has_notes is not None:
-            variables["filters"]["hasNotes"] = has_notes
+            filters["hasNotes"] = has_notes
 
         if hidden_from_reports is not None:
-            variables["filters"]["hideFromReports"] = hidden_from_reports
+            filters["hideFromReports"] = hidden_from_reports
 
         if is_recurring is not None:
-            variables["filters"]["isRecurring"] = is_recurring
+            filters["isRecurring"] = is_recurring
 
         if is_split is not None:
-            variables["filters"]["isSplit"] = is_split
+            filters["isSplit"] = is_split
 
         if imported_from_mint is not None:
-            variables["filters"]["importedFromMint"] = imported_from_mint
+            filters["importedFromMint"] = imported_from_mint
 
         if synced_from_institution is not None:
-            variables["filters"]["syncedFromInstitution"] = synced_from_institution
+            filters["syncedFromInstitution"] = synced_from_institution
 
         if start_date and end_date:
-            variables["filters"]["startDate"] = start_date
-            variables["filters"]["endDate"] = end_date
+            filters["startDate"] = start_date
+            filters["endDate"] = end_date
+
         elif bool(start_date) != bool(end_date):
             raise Exception(
                 "You must specify both a startDate and endDate, not just one of them."
             )
+
+        variables = {
+            "offset": offset,
+            "limit": limit,
+            "orderBy": "date",
+            "filters": filters,
+        }
 
         return await self.gql_call(
             operation="GetTransactionsList", graphql_query=query, variables=variables
@@ -2362,27 +2365,29 @@ class MonarchMoney(object):
         """
         )
 
-        variables = {
-            "limit": limit,
-            "orderBy": "date",
-            "filters": {
-                "search": "",
-                "categories": [],
-                "accounts": [],
-                "tags": [],
-            },
+        filters: Dict[str, Any] = {
+            "search": "",
+            "categories": [],
+            "accounts": [],
+            "tags": [],
         }
 
         if start_date and end_date:
-            variables["filters"]["startDate"] = start_date
-            variables["filters"]["endDate"] = end_date
+            filters["startDate"] = start_date
+            filters["endDate"] = end_date
         elif (start_date is None) ^ (end_date is None):
             raise Exception(
                 "You must specify both a startDate and endDate, not just one of them."
             )
         else:
-            variables["filters"]["startDate"] = self._get_start_of_current_month()
-            variables["filters"]["endDate"] = self._get_end_of_current_month()
+            filters["startDate"] = self._get_start_of_current_month()
+            filters["endDate"] = self._get_end_of_current_month()
+
+        variables = {
+            "limit": limit,
+            "orderBy": "date",
+            "filters": filters,
+        }
 
         return await self.gql_call(
             operation="Web_GetCashFlowPage", variables=variables, graphql_query=query
@@ -2414,27 +2419,29 @@ class MonarchMoney(object):
         """
         )
 
-        variables = {
-            "limit": limit,
-            "orderBy": "date",
-            "filters": {
-                "search": "",
-                "categories": [],
-                "accounts": [],
-                "tags": [],
-            },
+        filters: Dict[str, Any] = {
+            "search": "",
+            "categories": [],
+            "accounts": [],
+            "tags": [],
         }
 
         if start_date and end_date:
-            variables["filters"]["startDate"] = start_date
-            variables["filters"]["endDate"] = end_date
+            filters["startDate"] = start_date
+            filters["endDate"] = end_date
         elif bool(start_date) != bool(end_date):
             raise Exception(
                 "You must specify both a startDate and endDate, not just one of them."
             )
         else:
-            variables["filters"]["startDate"] = self._get_start_of_current_month()
-            variables["filters"]["endDate"] = self._get_end_of_current_month()
+            filters["startDate"] = self._get_start_of_current_month()
+            filters["endDate"] = self._get_end_of_current_month()
+
+        variables = {
+            "limit": limit,
+            "orderBy": "date",
+            "filters": filters,
+        }
 
         return await self.gql_call(
             operation="Web_GetCashFlowPage", variables=variables, graphql_query=query
