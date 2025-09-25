@@ -1,0 +1,68 @@
+{
+  "export_date": "2025-08-09T22:55:34.126090",
+  "accounts": {
+    "Apple card old ": {
+      "count": 0,
+      "error": "cannot access local variable 'dates' where it is not associated with a value",
+      "is_old": true
+    },
+    "Apple savings old": {
+      "count": 0,
+      "error": "cannot access local variable 'dates' where it is not associated with a value",
+      "is_old": true
+    },
+    "Apple cash old": {
+      "count": 0,
+      "error": "cannot access local variable 'dates' where it is not associated with a value",
+      "is_old": true
+    },
+    "TK APPL SAV": {
+      "count": 1492,
+      "oldest": "2023-04-17",
+      "newest": "2025-01-16",
+      "is_old": false
+    },
+    "TK APPL Cash": {
+      "count": 1,
+      "oldest": "2024-10-30",
+      "newest": "2024-10-30",
+      "is_old": false
+    },
+    "TK APPL CC": {
+      "count": 2187,
+      "oldest": "2022-08-10",
+      "newest": "2025-01-17",
+      "is_old": false
+    },
+    "Monika - Apple Card": {
+      "count": 160,
+      "oldest": "2022-08-31",
+      "newest": "2024-12-01",
+      "is_old": false
+    },
+    "MC APPL SAV": {
+      "count": 98,
+      "oldest": "2023-04-17",
+      "newest": "2024-12-01",
+      "is_old": false
+    },
+    "TK APPL CASH": {
+      "count": 35,
+      "oldest": "2022-09-07",
+      "newest": "2024-09-28",
+      "is_old": false
+    },
+    "Apple Cash": {
+      "count": 414,
+      "oldest": "2022-08-11",
+      "newest": "2025-06-10",
+      "is_old": false
+    },
+    "Apple Card": {
+      "count": 2583,
+      "oldest": "2022-08-10",
+      "newest": "2025-08-01",
+      "is_old": false
+    }
+  }
+}

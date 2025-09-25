@@ -1,0 +1,1201 @@
+{
+  "account": {
+    "id": "192256452835914636",
+    "name": "TK APPL CASH",
+    "balance": 0.0
+  },
+  "export_date": "2025-08-10T00:00:38.363340",
+  "transaction_count": 35,
+  "transactions": [
+    {
+      "id": "192256452909314183",
+      "amount": -15.0,
+      "pending": false,
+      "date": "2024-09-28",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:01.302919+00:00",
+      "updatedAt": "2024-10-23T02:34:01.302936+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462415",
+      "amount": -14.37,
+      "pending": false,
+      "date": "2024-08-16",
+      "hideFromReports": false,
+      "plaidName": "Withdrawal",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.093808+00:00",
+      "updatedAt": "2024-10-23T02:34:16.093815+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Withdrawal",
+        "id": "172602665177428670",
+        "transactionsCount": 16,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462414",
+      "amount": -11.63,
+      "pending": false,
+      "date": "2024-08-12",
+      "hideFromReports": false,
+      "plaidName": "Mcdonalds 11996",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.093708+00:00",
+      "updatedAt": "2024-10-23T02:34:16.093734+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "McDonald's",
+        "id": "172602695018852372",
+        "transactionsCount": 170,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462413",
+      "amount": -10.0,
+      "pending": false,
+      "date": "2024-08-12",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.093563+00:00",
+      "updatedAt": "2024-10-23T02:34:16.093589+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462412",
+      "amount": 10.0,
+      "pending": false,
+      "date": "2024-07-18",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.093462+00:00",
+      "updatedAt": "2024-10-23T02:34:16.093470+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462411",
+      "amount": 15.0,
+      "pending": false,
+      "date": "2024-06-21",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.093347+00:00",
+      "updatedAt": "2024-10-23T02:34:16.093356+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462410",
+      "amount": 11.0,
+      "pending": false,
+      "date": "2024-06-01",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.093217+00:00",
+      "updatedAt": "2024-10-23T02:34:16.093223+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462405",
+      "amount": -34.0,
+      "pending": false,
+      "date": "2024-03-05",
+      "hideFromReports": false,
+      "plaidName": "Withdrawal",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.092815+00:00",
+      "updatedAt": "2024-10-23T02:34:16.092821+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Withdrawal",
+        "id": "172602665177428670",
+        "transactionsCount": 16,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462399",
+      "amount": 34.0,
+      "pending": false,
+      "date": "2024-02-24",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.092232+00:00",
+      "updatedAt": "2024-10-23T02:34:16.092238+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462349",
+      "amount": -44.0,
+      "pending": false,
+      "date": "2024-02-20",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.088155+00:00",
+      "updatedAt": "2024-10-23T02:34:16.088162+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462383",
+      "amount": -185.55,
+      "pending": false,
+      "date": "2023-09-05",
+      "hideFromReports": false,
+      "plaidName": "Withdrawal",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.090918+00:00",
+      "updatedAt": "2024-10-23T02:34:16.090924+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Withdrawal",
+        "id": "172602665177428670",
+        "transactionsCount": 16,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462400",
+      "amount": -85.0,
+      "pending": false,
+      "date": "2023-09-01",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.092308+00:00",
+      "updatedAt": "2024-10-23T02:34:16.092315+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462392",
+      "amount": -80.0,
+      "pending": false,
+      "date": "2023-09-01",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.091678+00:00",
+      "updatedAt": "2024-10-23T02:34:16.091686+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462386",
+      "amount": -10.0,
+      "pending": false,
+      "date": "2023-09-01",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.091156+00:00",
+      "updatedAt": "2024-10-23T02:34:16.091162+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462354",
+      "amount": -39.0,
+      "pending": false,
+      "date": "2023-09-01",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.088559+00:00",
+      "updatedAt": "2024-10-23T02:34:16.088565+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462366",
+      "amount": 102.0,
+      "pending": false,
+      "date": "2023-08-20",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.089503+00:00",
+      "updatedAt": "2024-10-23T02:34:16.089510+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462394",
+      "amount": -64.96,
+      "pending": false,
+      "date": "2023-08-16",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.091837+00:00",
+      "updatedAt": "2024-10-23T02:34:16.091845+00:00",
+      "category": {
+        "id": "172602204824252781",
+        "name": "Electronics",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1860,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462352",
+      "amount": 271.0,
+      "pending": false,
+      "date": "2023-08-15",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.088394+00:00",
+      "updatedAt": "2024-10-23T02:34:16.088401+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462347",
+      "amount": -34.0,
+      "pending": false,
+      "date": "2023-08-08",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.087909+00:00",
+      "updatedAt": "2024-10-23T02:34:16.087930+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462375",
+      "amount": 67.0,
+      "pending": false,
+      "date": "2023-08-07",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.090215+00:00",
+      "updatedAt": "2024-10-23T02:34:16.090221+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462396",
+      "amount": 47.0,
+      "pending": false,
+      "date": "2023-04-06",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.091993+00:00",
+      "updatedAt": "2024-10-23T02:34:16.091999+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462356",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2023-03-25",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.088716+00:00",
+      "updatedAt": "2024-10-23T02:34:16.088724+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462376",
+      "amount": 10.0,
+      "pending": false,
+      "date": "2023-02-24",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.090296+00:00",
+      "updatedAt": "2024-10-23T02:34:16.090303+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462380",
+      "amount": 0.3,
+      "pending": false,
+      "date": "2023-02-05",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.090626+00:00",
+      "updatedAt": "2024-10-23T02:34:16.090632+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462365",
+      "amount": 0.35,
+      "pending": false,
+      "date": "2023-01-30",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.089424+00:00",
+      "updatedAt": "2024-10-23T02:34:16.089430+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462391",
+      "amount": 0.26,
+      "pending": false,
+      "date": "2023-01-23",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.091591+00:00",
+      "updatedAt": "2024-10-23T02:34:16.091601+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462360",
+      "amount": 0.52,
+      "pending": false,
+      "date": "2023-01-23",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.089037+00:00",
+      "updatedAt": "2024-10-23T02:34:16.089044+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462395",
+      "amount": -25.0,
+      "pending": false,
+      "date": "2023-01-10",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.091918+00:00",
+      "updatedAt": "2024-10-23T02:34:16.091924+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462389",
+      "amount": 0.32,
+      "pending": false,
+      "date": "2022-12-03",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.091399+00:00",
+      "updatedAt": "2024-10-23T02:34:16.091406+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462377",
+      "amount": 1.88,
+      "pending": false,
+      "date": "2022-12-02",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.090385+00:00",
+      "updatedAt": "2024-10-23T02:34:16.090392+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462374",
+      "amount": 3.01,
+      "pending": false,
+      "date": "2022-11-20",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.090138+00:00",
+      "updatedAt": "2024-10-23T02:34:16.090145+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462379",
+      "amount": 293.0,
+      "pending": false,
+      "date": "2022-11-18",
+      "hideFromReports": false,
+      "plaidName": "Transfer",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.090542+00:00",
+      "updatedAt": "2024-10-23T02:34:16.090550+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Transfer",
+        "id": "173152187421012981",
+        "transactionsCount": 62,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462369",
+      "amount": -422.96,
+      "pending": false,
+      "date": "2022-11-18",
+      "hideFromReports": false,
+      "plaidName": "Withdrawal",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.089736+00:00",
+      "updatedAt": "2024-10-23T02:34:16.089743+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Withdrawal",
+        "id": "172602665177428670",
+        "transactionsCount": 16,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462384",
+      "amount": 3.86,
+      "pending": false,
+      "date": "2022-11-05",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.090994+00:00",
+      "updatedAt": "2024-10-23T02:34:16.090999+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256468411462409",
+      "amount": 0.88,
+      "pending": false,
+      "date": "2022-09-07",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:16.093136+00:00",
+      "updatedAt": "2024-10-23T02:34:16.093143+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452835914636",
+        "displayName": "TK APPL CASH",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    }
+  ]
+}

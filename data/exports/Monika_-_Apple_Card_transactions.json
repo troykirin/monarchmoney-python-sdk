@@ -1,0 +1,5454 @@
+{
+  "account": {
+    "id": "192256452775097226",
+    "name": "Monika - Apple Card",
+    "balance": -6327.92,
+    "type": "Credit Cards",
+    "is_old": false
+  },
+  "export_date": "2025-08-09T22:55:11.206370",
+  "date_range": "2022-08-10 to 2025-08-09",
+  "transaction_count": 160,
+  "transactions": [
+    {
+      "id": "196226122655969446",
+      "amount": -125.44,
+      "pending": false,
+      "date": "2024-12-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-12-05T22:10:13.385860+00:00",
+      "updatedAt": "2024-12-07T10:05:53.604498+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "196226122655969445",
+      "amount": 194.0,
+      "pending": false,
+      "date": "2024-11-30",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-12-05T22:10:13.385745+00:00",
+      "updatedAt": "2024-12-05T22:10:13.385762+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "193254186238849452",
+      "amount": -16.13,
+      "pending": false,
+      "date": "2024-11-02",
+      "hideFromReports": false,
+      "plaidName": "Safeway",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-11-03T02:52:33.953587+00:00",
+      "updatedAt": "2024-11-04T21:51:17.948791+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Safeway",
+        "id": "172602709590913205",
+        "transactionsCount": 386,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "193254186238849451",
+      "amount": -26.46,
+      "pending": false,
+      "date": "2024-11-02",
+      "hideFromReports": false,
+      "plaidName": "Safeway",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-11-03T02:52:33.953472+00:00",
+      "updatedAt": "2024-11-04T21:51:17.882309+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Safeway",
+        "id": "172602709590913205",
+        "transactionsCount": 386,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "193140928127415070",
+      "amount": -130.16,
+      "pending": false,
+      "date": "2024-11-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-11-01T20:52:22.602323+00:00",
+      "updatedAt": "2024-11-07T03:50:30.390922+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "193059268302189081",
+      "amount": 193.0,
+      "pending": false,
+      "date": "2024-10-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-31T23:14:25.723785+00:00",
+      "updatedAt": "2024-10-31T23:14:25.723798+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256454729642181",
+      "amount": -128.55,
+      "pending": false,
+      "date": "2024-10-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "reviewed",
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:03.038944+00:00",
+      "updatedAt": "2024-10-29T19:03:37.619099+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256454729642180",
+      "amount": 198.0,
+      "pending": false,
+      "date": "2024-09-30",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:03.038804+00:00",
+      "updatedAt": "2024-10-23T02:51:36.941146+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443417",
+      "amount": -107.25,
+      "pending": false,
+      "date": "2024-09-20",
+      "hideFromReports": false,
+      "plaidName": "Lost Lands",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.793452+00:00",
+      "updatedAt": "2024-10-23T02:34:07.793456+00:00",
+      "category": {
+        "id": "172602204824252779",
+        "name": "Clothing",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Lost Lands Music Festival",
+        "id": "189360792314819273",
+        "transactionsCount": 20,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443416",
+      "amount": -133.52,
+      "pending": false,
+      "date": "2024-09-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.793406+00:00",
+      "updatedAt": "2024-10-23T02:51:38.767808+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443415",
+      "amount": 200.0,
+      "pending": false,
+      "date": "2024-08-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.793359+00:00",
+      "updatedAt": "2024-10-23T02:51:38.747883+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443414",
+      "amount": -134.81,
+      "pending": false,
+      "date": "2024-08-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.793312+00:00",
+      "updatedAt": "2024-10-23T02:51:38.712558+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443413",
+      "amount": 197.0,
+      "pending": false,
+      "date": "2024-07-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.793265+00:00",
+      "updatedAt": "2024-10-23T02:51:38.663298+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443412",
+      "amount": -131.72,
+      "pending": false,
+      "date": "2024-07-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.793218+00:00",
+      "updatedAt": "2024-10-23T02:51:38.627951+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443411",
+      "amount": 122.0,
+      "pending": false,
+      "date": "2024-06-30",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.793170+00:00",
+      "updatedAt": "2024-10-23T02:51:38.437332+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443410",
+      "amount": 80.0,
+      "pending": false,
+      "date": "2024-06-28",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.793121+00:00",
+      "updatedAt": "2024-10-23T02:51:38.219404+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443409",
+      "amount": -136.2,
+      "pending": false,
+      "date": "2024-06-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.793075+00:00",
+      "updatedAt": "2024-10-23T02:51:37.930173+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443408",
+      "amount": -7.71,
+      "pending": false,
+      "date": "2024-05-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo Pet Camera",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.793029+00:00",
+      "updatedAt": "2024-10-23T02:34:07.793033+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo Pet Camera",
+        "id": "192256459212304902",
+        "transactionsCount": 5,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443407",
+      "amount": 195.0,
+      "pending": false,
+      "date": "2024-05-22",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792982+00:00",
+      "updatedAt": "2024-10-23T02:51:37.728187+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443406",
+      "amount": -128.41,
+      "pending": false,
+      "date": "2024-05-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792934+00:00",
+      "updatedAt": "2024-10-23T02:51:37.527311+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443405",
+      "amount": -7.71,
+      "pending": false,
+      "date": "2024-04-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo Pet Camera",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792875+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792882+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo Pet Camera",
+        "id": "192256459212304902",
+        "transactionsCount": 5,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443357",
+      "amount": 200.0,
+      "pending": false,
+      "date": "2024-04-14",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.789776+00:00",
+      "updatedAt": "2024-10-23T02:34:07.789786+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443397",
+      "amount": -18.02,
+      "pending": false,
+      "date": "2024-04-13",
+      "hideFromReports": false,
+      "plaidName": "Petco",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792411+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792417+00:00",
+      "category": {
+        "id": "172602204824252776",
+        "name": "Pets",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Petco",
+        "id": "173151998785335854",
+        "transactionsCount": 22,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443352",
+      "amount": -48.98,
+      "pending": false,
+      "date": "2024-04-12",
+      "hideFromReports": false,
+      "plaidName": "Metropolitan Market",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.789377+00:00",
+      "updatedAt": "2024-10-23T02:34:07.789385+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Metropolitan Market",
+        "id": "172867600812847427",
+        "transactionsCount": 134,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444256",
+      "amount": -126.26,
+      "pending": false,
+      "date": "2024-04-08",
+      "hideFromReports": false,
+      "plaidName": "H Mart",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.710548+00:00",
+      "updatedAt": "2024-10-23T02:34:07.710552+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "H Mart",
+        "id": "172867686495138257",
+        "transactionsCount": 35,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443360",
+      "amount": -465.2,
+      "pending": false,
+      "date": "2024-04-06",
+      "hideFromReports": false,
+      "plaidName": "Arbor Eyecare",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.790062+00:00",
+      "updatedAt": "2024-10-23T02:34:07.790070+00:00",
+      "category": {
+        "id": "172602204824252786",
+        "name": "Medical",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Arbor Eyecare",
+        "id": "192256459424117275",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444327",
+      "amount": -47.56,
+      "pending": false,
+      "date": "2024-04-04",
+      "hideFromReports": false,
+      "plaidName": "Safeway",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.786011+00:00",
+      "updatedAt": "2024-10-23T02:34:07.786020+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Safeway",
+        "id": "172602709590913205",
+        "transactionsCount": 386,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444287",
+      "amount": -61.8,
+      "pending": false,
+      "date": "2024-04-03",
+      "hideFromReports": false,
+      "plaidName": "Petco",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783287+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783294+00:00",
+      "category": {
+        "id": "172602204824252776",
+        "name": "Pets",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Petco",
+        "id": "173151998785335854",
+        "transactionsCount": 22,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443348",
+      "amount": -12.15,
+      "pending": false,
+      "date": "2024-04-01",
+      "hideFromReports": false,
+      "plaidName": "Metropolitan Market",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.789009+00:00",
+      "updatedAt": "2024-10-23T02:34:07.789018+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Metropolitan Market",
+        "id": "172867600812847427",
+        "transactionsCount": 134,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443343",
+      "amount": -442.55,
+      "pending": false,
+      "date": "2024-04-01",
+      "hideFromReports": false,
+      "plaidName": "VCA Redwood Animal Hospital",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788707+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788711+00:00",
+      "category": {
+        "id": "172602204824252776",
+        "name": "Pets",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "VCA Animal Hospitals",
+        "id": "173151988780872101",
+        "transactionsCount": 3,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444348",
+      "amount": -106.37,
+      "pending": false,
+      "date": "2024-04-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787826+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787830+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443358",
+      "amount": -91.56,
+      "pending": false,
+      "date": "2024-03-31",
+      "hideFromReports": false,
+      "plaidName": "Tanoor",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.789876+00:00",
+      "updatedAt": "2024-10-23T02:34:07.789884+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Tanoor",
+        "id": "188632571673818005",
+        "transactionsCount": 4,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444292",
+      "amount": 140.0,
+      "pending": false,
+      "date": "2024-03-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783674+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783682+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443393",
+      "amount": -66.24,
+      "pending": false,
+      "date": "2024-03-29",
+      "hideFromReports": false,
+      "plaidName": "Safeway",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792195+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792199+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Safeway",
+        "id": "172602709590913205",
+        "transactionsCount": 386,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444296",
+      "amount": -20.21,
+      "pending": false,
+      "date": "2024-03-29",
+      "hideFromReports": false,
+      "plaidName": "Petco",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783889+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783894+00:00",
+      "category": {
+        "id": "172602204824252776",
+        "name": "Pets",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Petco",
+        "id": "173151998785335854",
+        "transactionsCount": 22,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444318",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2024-03-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo Pet Camera",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.785209+00:00",
+      "updatedAt": "2024-10-23T02:34:07.785217+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo Pet Camera",
+        "id": "192256459212304902",
+        "transactionsCount": 5,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444282",
+      "amount": -87.44,
+      "pending": false,
+      "date": "2024-03-18",
+      "hideFromReports": false,
+      "plaidName": "Anthony's Restaurants",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.782833+00:00",
+      "updatedAt": "2024-10-23T02:34:07.782842+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Anthony's Restaurants",
+        "id": "192256459111641599",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444269",
+      "amount": -39.67,
+      "pending": false,
+      "date": "2024-03-18",
+      "hideFromReports": false,
+      "plaidName": "Sephora",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.781543+00:00",
+      "updatedAt": "2024-10-23T02:34:07.781552+00:00",
+      "category": {
+        "id": "172602204824252775",
+        "name": "Personal",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Sephora",
+        "id": "192255796301508941",
+        "transactionsCount": 4,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444258",
+      "amount": -60.63,
+      "pending": false,
+      "date": "2024-03-18",
+      "hideFromReports": false,
+      "plaidName": "Nordstrom Rack",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.710640+00:00",
+      "updatedAt": "2024-10-23T02:34:07.710644+00:00",
+      "category": {
+        "id": "172602204824252778",
+        "name": "Shopping",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Nordstrom Rack",
+        "id": "173152006241759971",
+        "transactionsCount": 5,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443342",
+      "amount": -36.29,
+      "pending": false,
+      "date": "2024-03-17",
+      "hideFromReports": false,
+      "plaidName": "Smoke Plus",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788662+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788665+00:00",
+      "category": {
+        "id": "172602204824252778",
+        "name": "Shopping",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Smoke Plus",
+        "id": "192256459340231188",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443334",
+      "amount": -141.22,
+      "pending": false,
+      "date": "2024-03-14",
+      "hideFromReports": false,
+      "plaidName": "Big Fish Sushi",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788285+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788289+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Big Fish Sushi",
+        "id": "173151989419454888",
+        "transactionsCount": 5,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443339",
+      "amount": -7.78,
+      "pending": false,
+      "date": "2024-03-05",
+      "hideFromReports": false,
+      "plaidName": "The Summit at Snoqualmie",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788523+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788527+00:00",
+      "category": {
+        "id": "172602204824252774",
+        "name": "Entertainment & Recreation",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "The Summit at Snoqualmie",
+        "id": "173151982084665663",
+        "transactionsCount": 20,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444305",
+      "amount": -4.76,
+      "pending": false,
+      "date": "2024-03-05",
+      "hideFromReports": false,
+      "plaidName": "The Summit at Snoqualmie",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784324+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784329+00:00",
+      "category": {
+        "id": "172602204824252774",
+        "name": "Entertainment & Recreation",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "The Summit at Snoqualmie",
+        "id": "173151982084665663",
+        "transactionsCount": 20,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443374",
+      "amount": -14.0,
+      "pending": false,
+      "date": "2024-03-03",
+      "hideFromReports": false,
+      "plaidName": "Brown Bear Car Wash",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791232+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791236+00:00",
+      "category": {
+        "id": "172602204824252759",
+        "name": "Auto Maintenance",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Brown Bear Car Wash",
+        "id": "172602727092695593",
+        "transactionsCount": 17,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444324",
+      "amount": -68.86,
+      "pending": false,
+      "date": "2024-03-03",
+      "hideFromReports": false,
+      "plaidName": "Metropolitan Market",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.785713+00:00",
+      "updatedAt": "2024-10-23T02:34:07.785724+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Metropolitan Market",
+        "id": "172867600812847427",
+        "transactionsCount": 134,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444289",
+      "amount": -8.05,
+      "pending": false,
+      "date": "2024-03-03",
+      "hideFromReports": false,
+      "plaidName": "Chevron",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783451+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783458+00:00",
+      "category": {
+        "id": "172602204824252758",
+        "name": "Gas",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Chevron",
+        "id": "172602696278192174",
+        "transactionsCount": 115,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444315",
+      "amount": -90.99,
+      "pending": false,
+      "date": "2024-03-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784944+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784952+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443379",
+      "amount": -29.69,
+      "pending": false,
+      "date": "2024-02-29",
+      "hideFromReports": false,
+      "plaidName": "Alpental",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791471+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791476+00:00",
+      "category": {
+        "id": "172602204824252774",
+        "name": "Entertainment & Recreation",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Alpental",
+        "id": "192256459516391969",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444291",
+      "amount": 125.0,
+      "pending": false,
+      "date": "2024-02-29",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783610+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783618+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444335",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2024-02-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo Pet Camera",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787179+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787187+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo Pet Camera",
+        "id": "192256459212304902",
+        "transactionsCount": 5,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444276",
+      "amount": -4.28,
+      "pending": false,
+      "date": "2024-02-11",
+      "hideFromReports": false,
+      "plaidName": "Yul Cafe Montreal Bage",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.782222+00:00",
+      "updatedAt": "2024-10-23T02:34:07.782231+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Yul Cafe Montreal Bage",
+        "id": "192256459101155838",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443380",
+      "amount": -20.83,
+      "pending": false,
+      "date": "2024-02-10",
+      "hideFromReports": false,
+      "plaidName": "Restaurant La Fourchette du Diable",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791519+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791523+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Restaurant La Fourchette Du Diable",
+        "id": "173151995431989736",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443385",
+      "amount": -52.4,
+      "pending": false,
+      "date": "2024-02-09",
+      "hideFromReports": false,
+      "plaidName": "Le Grand Manitou",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791749+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791753+00:00",
+      "category": {
+        "id": "172602204824252778",
+        "name": "Shopping",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Le Grand Manitou",
+        "id": "192256459091718652",
+        "transactionsCount": 6,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444278",
+      "amount": -7.98,
+      "pending": false,
+      "date": "2024-02-09",
+      "hideFromReports": false,
+      "plaidName": "Le Grand Manitou",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.782438+00:00",
+      "updatedAt": "2024-10-23T02:34:07.782446+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Le Grand Manitou",
+        "id": "192256459091718652",
+        "transactionsCount": 6,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443375",
+      "amount": -25.52,
+      "pending": false,
+      "date": "2024-02-08",
+      "hideFromReports": false,
+      "plaidName": "Tremblant",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791282+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791286+00:00",
+      "category": {
+        "id": "172602204824252773",
+        "name": "Travel & Vacation",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Tremblant",
+        "id": "192256459398951445",
+        "transactionsCount": 2,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443368",
+      "amount": -134.24,
+      "pending": false,
+      "date": "2024-02-08",
+      "hideFromReports": false,
+      "plaidName": "SAQ",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.790845+00:00",
+      "updatedAt": "2024-10-23T02:34:07.790853+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "SAQ",
+        "id": "172602694687502345",
+        "transactionsCount": 5,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443365",
+      "amount": -4.46,
+      "pending": false,
+      "date": "2024-02-08",
+      "hideFromReports": false,
+      "plaidName": "Cabane A Sucre De La Montagne",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.790537+00:00",
+      "updatedAt": "2024-10-23T02:34:07.790545+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Cabane a Sucre De La Montagne",
+        "id": "192256459436700188",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444285",
+      "amount": -22.82,
+      "pending": false,
+      "date": "2024-02-08",
+      "hideFromReports": false,
+      "plaidName": "SAQ",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783124+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783132+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "SAQ",
+        "id": "172602694687502345",
+        "transactionsCount": 5,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444283",
+      "amount": -37.41,
+      "pending": false,
+      "date": "2024-02-08",
+      "hideFromReports": false,
+      "plaidName": "Boutique",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.782930+00:00",
+      "updatedAt": "2024-10-23T02:34:07.782939+00:00",
+      "category": {
+        "id": "172602204824252778",
+        "name": "Shopping",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Boutique",
+        "id": "192256459117933056",
+        "transactionsCount": 2,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443404",
+      "amount": -10.56,
+      "pending": false,
+      "date": "2024-02-07",
+      "hideFromReports": false,
+      "plaidName": "Le Grand Manitou",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792812+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792816+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Le Grand Manitou",
+        "id": "192256459091718652",
+        "transactionsCount": 6,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443349",
+      "amount": -10.7,
+      "pending": false,
+      "date": "2024-02-07",
+      "hideFromReports": false,
+      "plaidName": "Tremblant",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.789104+00:00",
+      "updatedAt": "2024-10-23T02:34:07.789112+00:00",
+      "category": {
+        "id": "172602204824252773",
+        "name": "Travel & Vacation",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Tremblant",
+        "id": "192256459398951445",
+        "transactionsCount": 2,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443372",
+      "amount": -11.6,
+      "pending": false,
+      "date": "2024-02-06",
+      "hideFromReports": false,
+      "plaidName": "Pop Therapy",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791134+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791138+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Pop Therapy",
+        "id": "192256459024609784",
+        "transactionsCount": 2,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444330",
+      "amount": -5.06,
+      "pending": false,
+      "date": "2024-02-06",
+      "hideFromReports": false,
+      "plaidName": "Le Grand Manitou",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.786694+00:00",
+      "updatedAt": "2024-10-23T02:34:07.786703+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Le Grand Manitou",
+        "id": "192256459091718652",
+        "transactionsCount": 6,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444264",
+      "amount": -16.7,
+      "pending": false,
+      "date": "2024-02-05",
+      "hideFromReports": false,
+      "plaidName": "Pop Therapy",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.781268+00:00",
+      "updatedAt": "2024-10-23T02:34:07.781273+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Pop Therapy",
+        "id": "192256459024609784",
+        "transactionsCount": 2,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443383",
+      "amount": -5.37,
+      "pending": false,
+      "date": "2024-02-04",
+      "hideFromReports": false,
+      "plaidName": "Le Grand Manitou",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791659+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791663+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Le Grand Manitou",
+        "id": "192256459091718652",
+        "transactionsCount": 6,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443369",
+      "amount": -47.37,
+      "pending": false,
+      "date": "2024-02-04",
+      "hideFromReports": false,
+      "plaidName": "Le d\u00e9panneur march\u00e9 les deux soeurs Inc",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.790941+00:00",
+      "updatedAt": "2024-10-23T02:34:07.790951+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Le D\u00e9panneur Les Deux Soeurs Inc",
+        "id": "192256459505906207",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443359",
+      "amount": -91.69,
+      "pending": false,
+      "date": "2024-02-04",
+      "hideFromReports": false,
+      "plaidName": "Homewood Suites by Hilton",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.789968+00:00",
+      "updatedAt": "2024-10-23T02:34:07.789977+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Homewood Suites",
+        "id": "192256459417825817",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443354",
+      "amount": -46.7,
+      "pending": false,
+      "date": "2024-02-03",
+      "hideFromReports": false,
+      "plaidName": "SAQ",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.789568+00:00",
+      "updatedAt": "2024-10-23T02:34:07.789578+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "SAQ",
+        "id": "172602694687502345",
+        "transactionsCount": 5,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444313",
+      "amount": -146.87,
+      "pending": false,
+      "date": "2024-02-03",
+      "hideFromReports": false,
+      "plaidName": "Boutique",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784758+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784766+00:00",
+      "category": {
+        "id": "172602204824252778",
+        "name": "Shopping",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Boutique",
+        "id": "192256459117933056",
+        "transactionsCount": 2,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444299",
+      "amount": -32.28,
+      "pending": false,
+      "date": "2024-02-03",
+      "hideFromReports": false,
+      "plaidName": "Restaurant La Fourchette du Diable",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784035+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784039+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Restaurant La Fourchette Du Diable",
+        "id": "173151995431989736",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444273",
+      "amount": -12.35,
+      "pending": false,
+      "date": "2024-02-03",
+      "hideFromReports": false,
+      "plaidName": "Le Grand Manitou",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.781915+00:00",
+      "updatedAt": "2024-10-23T02:34:07.781923+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Le Grand Manitou",
+        "id": "192256459091718652",
+        "transactionsCount": 6,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444345",
+      "amount": -5.5,
+      "pending": false,
+      "date": "2024-02-02",
+      "hideFromReports": false,
+      "plaidName": "Plum Market",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787680+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787685+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Plum Market",
+        "id": "192256459311919631",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443370",
+      "amount": -22.01,
+      "pending": false,
+      "date": "2024-02-01",
+      "hideFromReports": false,
+      "plaidName": "Petco",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791031+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791036+00:00",
+      "category": {
+        "id": "172602204824252776",
+        "name": "Pets",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Petco",
+        "id": "173151998785335854",
+        "transactionsCount": 22,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443363",
+      "amount": -31.44,
+      "pending": false,
+      "date": "2024-02-01",
+      "hideFromReports": false,
+      "plaidName": "Safeway",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.790341+00:00",
+      "updatedAt": "2024-10-23T02:34:07.790349+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Safeway",
+        "id": "172602709590913205",
+        "transactionsCount": 386,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444350",
+      "amount": -84.41,
+      "pending": false,
+      "date": "2024-02-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787917+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787921+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443338",
+      "amount": 125.0,
+      "pending": false,
+      "date": "2024-01-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788475+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788479+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443377",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2024-01-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo Pet Camera",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791378+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791382+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo Pet Camera",
+        "id": "192256459212304902",
+        "transactionsCount": 5,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444341",
+      "amount": -83.81,
+      "pending": false,
+      "date": "2024-01-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787484+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787488+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444343",
+      "amount": 112.0,
+      "pending": false,
+      "date": "2023-12-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787581+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787585+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444317",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2023-12-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.785122+00:00",
+      "updatedAt": "2024-10-23T02:34:07.785131+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo",
+        "id": "192256458993152499",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444254",
+      "amount": -63.81,
+      "pending": false,
+      "date": "2023-12-19",
+      "hideFromReports": false,
+      "plaidName": "Old Navy",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.710452+00:00",
+      "updatedAt": "2024-10-23T02:34:07.710456+00:00",
+      "category": {
+        "id": "172602204824252779",
+        "name": "Clothing",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Old Navy",
+        "id": "192256458979521009",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444270",
+      "amount": -24.98,
+      "pending": false,
+      "date": "2023-12-12",
+      "hideFromReports": false,
+      "plaidName": "Mud Bay",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.781636+00:00",
+      "updatedAt": "2024-10-23T02:34:07.781645+00:00",
+      "category": {
+        "id": "172602204824252776",
+        "name": "Pets",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Mud Bay Pet Supplies",
+        "id": "172867688781033975",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443401",
+      "amount": -130.96,
+      "pending": false,
+      "date": "2023-12-02",
+      "hideFromReports": false,
+      "plaidName": "Town & Country Markets",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792645+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792649+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Town & Country Markets",
+        "id": "192256459543654948",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444331",
+      "amount": -193.44,
+      "pending": false,
+      "date": "2023-12-01",
+      "hideFromReports": false,
+      "plaidName": "Safeway",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.786795+00:00",
+      "updatedAt": "2024-10-23T02:34:07.786804+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Safeway",
+        "id": "172602709590913205",
+        "transactionsCount": 386,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444298",
+      "amount": -74.64,
+      "pending": false,
+      "date": "2023-12-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783987+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783991+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443398",
+      "amount": 115.0,
+      "pending": false,
+      "date": "2023-11-30",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792473+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792477+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443400",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2023-11-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792584+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792590+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo",
+        "id": "192256458993152499",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444333",
+      "amount": -77.74,
+      "pending": false,
+      "date": "2023-11-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.786991+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787000+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443353",
+      "amount": 113.0,
+      "pending": false,
+      "date": "2023-10-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.789471+00:00",
+      "updatedAt": "2024-10-23T02:34:07.789479+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444314",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2023-10-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784852+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784860+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo",
+        "id": "192256458993152499",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444252",
+      "amount": -75.11,
+      "pending": false,
+      "date": "2023-10-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.710343+00:00",
+      "updatedAt": "2024-10-23T02:34:07.710347+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443378",
+      "amount": 109.0,
+      "pending": false,
+      "date": "2023-09-30",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791424+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791428+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443389",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2023-09-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791964+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791968+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo",
+        "id": "192256458993152499",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444321",
+      "amount": -107.21,
+      "pending": false,
+      "date": "2023-09-05",
+      "hideFromReports": false,
+      "plaidName": "Safeway",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.785475+00:00",
+      "updatedAt": "2024-10-23T02:34:07.785484+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Safeway",
+        "id": "172602709590913205",
+        "transactionsCount": 386,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444297",
+      "amount": -39.31,
+      "pending": false,
+      "date": "2023-09-05",
+      "hideFromReports": false,
+      "plaidName": "Trader Joe's",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783938+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783942+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Trader Joe's",
+        "id": "172867599394124065",
+        "transactionsCount": 44,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444310",
+      "amount": -41.91,
+      "pending": false,
+      "date": "2023-09-04",
+      "hideFromReports": false,
+      "plaidName": "Metropolitan Market",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784567+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784571+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Metropolitan Market",
+        "id": "172867600812847427",
+        "transactionsCount": 134,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444272",
+      "amount": -11.85,
+      "pending": false,
+      "date": "2023-09-04",
+      "hideFromReports": false,
+      "plaidName": "Metropolitan Market",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.781825+00:00",
+      "updatedAt": "2024-10-23T02:34:07.781833+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Metropolitan Market",
+        "id": "172867600812847427",
+        "transactionsCount": 134,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444334",
+      "amount": -72.75,
+      "pending": false,
+      "date": "2023-09-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787090+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787101+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444320",
+      "amount": 101.0,
+      "pending": false,
+      "date": "2023-08-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.785384+00:00",
+      "updatedAt": "2024-10-23T02:34:07.785392+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444304",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2023-08-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784273+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784278+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo",
+        "id": "192256458993152499",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444265",
+      "amount": -118.91,
+      "pending": false,
+      "date": "2023-08-16",
+      "hideFromReports": false,
+      "plaidName": "Sephora",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.781322+00:00",
+      "updatedAt": "2024-10-23T02:34:07.781326+00:00",
+      "category": {
+        "id": "172602204824252775",
+        "name": "Personal",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Sephora",
+        "id": "192255796301508941",
+        "transactionsCount": 4,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444346",
+      "amount": -112.7,
+      "pending": false,
+      "date": "2023-08-06",
+      "hideFromReports": false,
+      "plaidName": "The Shrimp Shack",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787732+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787736+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "The Shrimp Shack",
+        "id": "192256459318211088",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444301",
+      "amount": -67.58,
+      "pending": false,
+      "date": "2023-08-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784129+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784133+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443335",
+      "amount": 99.0,
+      "pending": false,
+      "date": "2023-07-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788331+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788335+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444307",
+      "amount": -91.21,
+      "pending": false,
+      "date": "2023-07-30",
+      "hideFromReports": false,
+      "plaidName": "Jang Soo Tofu",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784424+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784429+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Jang Soo Tofu",
+        "id": "192256459182944769",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444259",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2023-07-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.710686+00:00",
+      "updatedAt": "2024-10-23T02:34:07.710690+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo",
+        "id": "192256458993152499",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443388",
+      "amount": -21.87,
+      "pending": false,
+      "date": "2023-07-04",
+      "hideFromReports": false,
+      "plaidName": "Papa Johns Pizza",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791914+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791918+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Papa John's",
+        "id": "173151983463543131",
+        "transactionsCount": 16,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443390",
+      "amount": -65.45,
+      "pending": false,
+      "date": "2023-07-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792026+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792030+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443392",
+      "amount": 100.0,
+      "pending": false,
+      "date": "2023-06-30",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792135+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792139+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443387",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2023-06-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791865+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791869+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo",
+        "id": "192256458993152499",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443355",
+      "amount": -17.87,
+      "pending": false,
+      "date": "2023-06-04",
+      "hideFromReports": false,
+      "plaidName": "Crumbl",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.789638+00:00",
+      "updatedAt": "2024-10-23T02:34:07.789643+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Crumbl Cookies",
+        "id": "192256459410485783",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444268",
+      "amount": -7.98,
+      "pending": false,
+      "date": "2023-06-04",
+      "hideFromReports": false,
+      "plaidName": "Metropolitan Market",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.781481+00:00",
+      "updatedAt": "2024-10-23T02:34:07.781486+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Metropolitan Market",
+        "id": "172867600812847427",
+        "transactionsCount": 134,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444339",
+      "amount": -66.98,
+      "pending": false,
+      "date": "2023-06-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787386+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787390+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443344",
+      "amount": 99.0,
+      "pending": false,
+      "date": "2023-05-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788755+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788758+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443391",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2023-05-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792082+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792088+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo",
+        "id": "192256458993152499",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444288",
+      "amount": -65.34,
+      "pending": false,
+      "date": "2023-05-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783369+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783377+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443386",
+      "amount": 169.24,
+      "pending": false,
+      "date": "2023-04-30",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791815+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791820+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444328",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2023-04-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.786105+00:00",
+      "updatedAt": "2024-10-23T02:34:07.786113+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo",
+        "id": "192256458993152499",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443373",
+      "amount": -58.25,
+      "pending": false,
+      "date": "2023-04-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791183+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791188+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443331",
+      "amount": -67.24,
+      "pending": false,
+      "date": "2023-04-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788151+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788154+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444312",
+      "amount": -9.99,
+      "pending": false,
+      "date": "2023-04-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784668+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784676+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444329",
+      "amount": 163.16,
+      "pending": false,
+      "date": "2023-03-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.786584+00:00",
+      "updatedAt": "2024-10-23T02:34:07.786596+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443328",
+      "amount": -7.7,
+      "pending": false,
+      "date": "2023-03-25",
+      "hideFromReports": false,
+      "plaidName": "Furbo",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788010+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788014+00:00",
+      "category": {
+        "id": "172602204824252799",
+        "name": "Business Utilities & Communication",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Furbo",
+        "id": "192256458993152499",
+        "transactionsCount": 10,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443402",
+      "amount": -58.25,
+      "pending": false,
+      "date": "2023-03-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792704+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792708+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443330",
+      "amount": -9.91,
+      "pending": false,
+      "date": "2023-03-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788105+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788109+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444340",
+      "amount": -60.66,
+      "pending": false,
+      "date": "2023-03-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787435+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787439+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443332",
+      "amount": 171.16,
+      "pending": false,
+      "date": "2023-02-28",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788196+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788199+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444311",
+      "amount": -30.0,
+      "pending": false,
+      "date": "2023-02-04",
+      "hideFromReports": false,
+      "plaidName": "Wai\u02bb\u0101napanapa State Park Reservations",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784614+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784618+00:00",
+      "category": {
+        "id": "172602204824252774",
+        "name": "Entertainment & Recreation",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "State Park Reservations",
+        "id": "192256459197624836",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443362",
+      "amount": -69.04,
+      "pending": false,
+      "date": "2023-02-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.790248+00:00",
+      "updatedAt": "2024-10-23T02:34:07.790256+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443361",
+      "amount": -58.25,
+      "pending": false,
+      "date": "2023-02-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.790155+00:00",
+      "updatedAt": "2024-10-23T02:34:07.790164+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443333",
+      "amount": -9.91,
+      "pending": false,
+      "date": "2023-02-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788241+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788244+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443347",
+      "amount": -17.32,
+      "pending": false,
+      "date": "2023-01-29",
+      "hideFromReports": false,
+      "plaidName": "Starbucks",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788914+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788923+00:00",
+      "category": {
+        "id": "172602204824252771",
+        "name": "Restaurants & Bars",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Starbucks",
+        "id": "172867604590866854",
+        "transactionsCount": 130,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443340",
+      "amount": 300.96,
+      "pending": false,
+      "date": "2023-01-25",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788569+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788573+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443337",
+      "amount": -25.92,
+      "pending": false,
+      "date": "2023-01-22",
+      "hideFromReports": false,
+      "plaidName": "YK Air Duct Cleaning Snoqualmie Pass",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788428+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788432+00:00",
+      "category": {
+        "id": "172602204824252774",
+        "name": "Entertainment & Recreation",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Air Duct Cleaning Snoqualmie Pass",
+        "id": "173151982701228363",
+        "transactionsCount": 18,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444300",
+      "amount": -12.96,
+      "pending": false,
+      "date": "2023-01-22",
+      "hideFromReports": false,
+      "plaidName": "YK Air Duct Cleaning Snoqualmie Pass",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784082+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784086+00:00",
+      "category": {
+        "id": "172602204824252774",
+        "name": "Entertainment & Recreation",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Air Duct Cleaning Snoqualmie Pass",
+        "id": "173151982701228363",
+        "transactionsCount": 18,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443394",
+      "amount": -9.91,
+      "pending": false,
+      "date": "2023-01-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792248+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792255+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443376",
+      "amount": -58.25,
+      "pending": false,
+      "date": "2023-01-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791330+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791334+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443371",
+      "amount": 344.32,
+      "pending": false,
+      "date": "2023-01-01",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.791084+00:00",
+      "updatedAt": "2024-10-23T02:34:07.791089+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444293",
+      "amount": -71.35,
+      "pending": false,
+      "date": "2023-01-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783741+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783746+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444336",
+      "amount": -15.99,
+      "pending": false,
+      "date": "2022-12-02",
+      "hideFromReports": false,
+      "plaidName": "Lyft",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787237+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787242+00:00",
+      "category": {
+        "id": "172602204824252761",
+        "name": "Taxi & Ride Shares",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Lyft",
+        "id": "173151985028018557",
+        "transactionsCount": 25,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443396",
+      "amount": -9.91,
+      "pending": false,
+      "date": "2022-12-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792362+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792367+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444284",
+      "amount": -58.25,
+      "pending": false,
+      "date": "2022-12-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783030+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783040+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444250",
+      "amount": -63.2,
+      "pending": false,
+      "date": "2022-12-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.710179+00:00",
+      "updatedAt": "2024-10-23T02:34:07.710195+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443399",
+      "amount": 163.16,
+      "pending": false,
+      "date": "2022-11-30",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.792533+00:00",
+      "updatedAt": "2024-10-23T02:34:07.792537+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444325",
+      "amount": -94.0,
+      "pending": false,
+      "date": "2022-11-29",
+      "hideFromReports": false,
+      "plaidName": "La Vie En Rose Nail Spa",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.785819+00:00",
+      "updatedAt": "2024-10-23T02:34:07.785828+00:00",
+      "category": {
+        "id": "172602204824252775",
+        "name": "Personal",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "La Vie en Rose",
+        "id": "192256459231179273",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443329",
+      "amount": -150.6,
+      "pending": false,
+      "date": "2022-11-19",
+      "hideFromReports": false,
+      "plaidName": "Safeway",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788057+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788061+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Safeway",
+        "id": "172602709590913205",
+        "transactionsCount": 386,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444316",
+      "amount": -192.75,
+      "pending": false,
+      "date": "2022-11-05",
+      "hideFromReports": false,
+      "plaidName": "Asian Family Market - Headquarters",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.785034+00:00",
+      "updatedAt": "2024-10-23T02:34:07.785042+00:00",
+      "category": {
+        "id": "172602204824252770",
+        "name": "Groceries",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Asian Family Market Headquarters",
+        "id": "192256459204964869",
+        "transactionsCount": 1,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443356",
+      "amount": -61.66,
+      "pending": false,
+      "date": "2022-11-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.789689+00:00",
+      "updatedAt": "2024-10-23T02:34:07.789694+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444349",
+      "amount": 159.16,
+      "pending": false,
+      "date": "2022-11-01",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787872+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787876+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444295",
+      "amount": -9.91,
+      "pending": false,
+      "date": "2022-11-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783840+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783844+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444279",
+      "amount": -58.25,
+      "pending": false,
+      "date": "2022-11-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.782529+00:00",
+      "updatedAt": "2024-10-23T02:34:07.782536+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625443341",
+      "amount": -9.91,
+      "pending": false,
+      "date": "2022-10-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.788616+00:00",
+      "updatedAt": "2024-10-23T02:34:07.788620+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444303",
+      "amount": -57.66,
+      "pending": false,
+      "date": "2022-10-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.784227+00:00",
+      "updatedAt": "2024-10-23T02:34:07.784231+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444251",
+      "amount": -58.25,
+      "pending": false,
+      "date": "2022-10-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.710286+00:00",
+      "updatedAt": "2024-10-23T02:34:07.710293+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444277",
+      "amount": 161.16,
+      "pending": false,
+      "date": "2022-09-23",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.782329+00:00",
+      "updatedAt": "2024-10-23T02:34:07.782339+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444326",
+      "amount": -44.24,
+      "pending": false,
+      "date": "2022-09-06",
+      "hideFromReports": false,
+      "plaidName": "Zara",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.785914+00:00",
+      "updatedAt": "2024-10-23T02:34:07.785923+00:00",
+      "category": {
+        "id": "172602204824252779",
+        "name": "Clothing",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Zara",
+        "id": "172867681330901354",
+        "transactionsCount": 8,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444290",
+      "amount": -59.84,
+      "pending": false,
+      "date": "2022-09-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.783527+00:00",
+      "updatedAt": "2024-10-23T02:34:07.783534+00:00",
+      "category": {
+        "id": "204368367508762781",
+        "name": "Interest Charge",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444281",
+      "amount": -58.25,
+      "pending": false,
+      "date": "2022-09-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.782732+00:00",
+      "updatedAt": "2024-10-23T02:34:07.782742+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444280",
+      "amount": -9.91,
+      "pending": false,
+      "date": "2022-09-01",
+      "hideFromReports": false,
+      "plaidName": "Apple Store",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": "needs_review",
+      "needsReview": true,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.782621+00:00",
+      "updatedAt": "2024-10-23T02:34:07.782629+00:00",
+      "category": {
+        "id": "172602204824252795",
+        "name": "Uncategorized",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Apple",
+        "id": "172602664992879285",
+        "transactionsCount": 1856,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256459625444344",
+      "amount": 156.16,
+      "pending": false,
+      "date": "2022-08-31",
+      "hideFromReports": false,
+      "plaidName": "Bill Payment",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:07.787630+00:00",
+      "updatedAt": "2024-10-23T02:34:07.787635+00:00",
+      "category": {
+        "id": "172602204824252807",
+        "name": "Transfer",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Bill Payment",
+        "id": "188632528005869978",
+        "transactionsCount": 572,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452775097226",
+        "displayName": "Monika - Apple Card",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    }
+  ]
+}

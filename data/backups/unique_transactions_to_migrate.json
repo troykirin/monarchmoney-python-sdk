@@ -1,0 +1,88 @@
+{
+  "migration_date": "2025-08-10T00:46:24.565552",
+  "target_account": {
+    "id": "218625047395283101",
+    "name": "Apple Card (Aug 10)"
+  },
+  "unique_from_prev": {
+    "source_account_id": "203020717025898657",
+    "source_account_name": "Apple Card prev",
+    "transactions": [
+      {
+        "id": "213356243664745089",
+        "amount": -1436.7,
+        "pending": true,
+        "date": "2025-06-12",
+        "hideFromReports": false,
+        "plaidName": "Apple Store",
+        "notes": null,
+        "isRecurring": true,
+        "reviewStatus": null,
+        "needsReview": false,
+        "attachments": [],
+        "isSplitTransaction": false,
+        "createdAt": "2025-06-13T00:06:09.829090+00:00",
+        "updatedAt": "2025-06-13T00:20:46.862888+00:00",
+        "category": {
+          "id": "172602204824252781",
+          "name": "Electronics",
+          "__typename": "Category"
+        },
+        "merchant": {
+          "name": "Apple",
+          "id": "172602664992879285",
+          "transactionsCount": 1518,
+          "__typename": "Merchant"
+        },
+        "account": {
+          "id": "203020717025898657",
+          "displayName": "Apple Card prev",
+          "__typename": "Account"
+        },
+        "tags": [],
+        "__typename": "Transaction"
+      }
+    ]
+  },
+  "unique_from_tk": {
+    "source_account_id": "188632527921983749",
+    "source_account_name": "TK APPL CC",
+    "transactions": [
+      {
+        "id": "193891949115060845",
+        "amount": -46.22,
+        "pending": true,
+        "date": "2024-11-09",
+        "hideFromReports": false,
+        "plaidName": "Steam",
+        "notes": null,
+        "isRecurring": false,
+        "reviewStatus": null,
+        "needsReview": false,
+        "attachments": [],
+        "isSplitTransaction": false,
+        "createdAt": "2024-11-10T03:49:32.028469+00:00",
+        "updatedAt": "2024-11-10T03:49:32.028476+00:00",
+        "category": {
+          "id": "172602204824252774",
+          "name": "Entertainment & Recreation",
+          "__typename": "Category"
+        },
+        "merchant": {
+          "name": "Steam",
+          "id": "172602713982349558",
+          "transactionsCount": 101,
+          "__typename": "Merchant"
+        },
+        "account": {
+          "id": "188632527921983749",
+          "displayName": "TK APPL CC",
+          "__typename": "Account"
+        },
+        "tags": [],
+        "__typename": "Transaction"
+      }
+    ]
+  },
+  "total_to_migrate": 2
+}

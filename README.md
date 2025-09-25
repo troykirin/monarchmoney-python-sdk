@@ -8,7 +8,7 @@ Python library for accessing [Monarch Money](https://www.monarchmoney.com/referr
 
 Clone this repository from Git
 
-`git clone https://github.com/hammem/monarchmoney.git`
+`git clone https://github.com/NabiaTech/monarchmoney-python-sdk.git`
 
 ## Via `pip`
 

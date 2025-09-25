@@ -1,0 +1,3346 @@
+{
+  "account": {
+    "id": "192256452809700235",
+    "name": "MC APPL SAV",
+    "balance": 187.68,
+    "type": "Cash",
+    "is_old": false
+  },
+  "export_date": "2025-08-09T22:55:12.415221",
+  "date_range": "2022-08-10 to 2025-08-09",
+  "transaction_count": 98,
+  "transactions": [
+    {
+      "id": "196226122943279275",
+      "amount": 0.62,
+      "pending": false,
+      "date": "2024-12-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-12-05T22:10:13.660136+00:00",
+      "updatedAt": "2024-12-05T22:10:13.660156+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "193416426250285449",
+      "amount": 0.53,
+      "pending": false,
+      "date": "2024-11-04",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-11-04T21:51:18.085390+00:00",
+      "updatedAt": "2024-11-04T21:51:18.085398+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "193416426250285448",
+      "amount": 0.32,
+      "pending": false,
+      "date": "2024-11-04",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-11-04T21:51:18.085255+00:00",
+      "updatedAt": "2024-11-04T21:51:18.085273+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "193095643437183200",
+      "amount": 0.64,
+      "pending": false,
+      "date": "2024-11-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-11-01T08:52:35.755335+00:00",
+      "updatedAt": "2024-11-01T08:52:35.755352+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256455151169774",
+      "amount": 0.64,
+      "pending": false,
+      "date": "2024-10-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:03.440839+00:00",
+      "updatedAt": "2024-10-23T02:51:37.230200+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346438",
+      "amount": 2.15,
+      "pending": false,
+      "date": "2024-09-21",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.807303+00:00",
+      "updatedAt": "2024-10-23T02:34:18.807307+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346437",
+      "amount": 0.67,
+      "pending": false,
+      "date": "2024-09-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.807239+00:00",
+      "updatedAt": "2024-10-23T02:51:38.961288+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346436",
+      "amount": 0.66,
+      "pending": false,
+      "date": "2024-08-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.807196+00:00",
+      "updatedAt": "2024-10-23T02:51:38.921726+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346435",
+      "amount": 0.64,
+      "pending": false,
+      "date": "2024-07-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.807152+00:00",
+      "updatedAt": "2024-10-23T02:51:38.853278+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346434",
+      "amount": 0.66,
+      "pending": false,
+      "date": "2024-06-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.807106+00:00",
+      "updatedAt": "2024-10-23T02:51:38.822039+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346433",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2024-05-26",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.807060+00:00",
+      "updatedAt": "2024-10-23T02:34:18.807064+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346432",
+      "amount": 0.62,
+      "pending": false,
+      "date": "2024-05-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.807014+00:00",
+      "updatedAt": "2024-10-23T02:51:38.784166+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346431",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2024-04-25",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806969+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806973+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346374",
+      "amount": 0.36,
+      "pending": false,
+      "date": "2024-04-14",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804264+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804268+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346368",
+      "amount": 0.98,
+      "pending": false,
+      "date": "2024-04-13",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803960+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803964+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346359",
+      "amount": 2.53,
+      "pending": false,
+      "date": "2024-04-08",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803542+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803546+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346349",
+      "amount": 9.3,
+      "pending": false,
+      "date": "2024-04-07",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803067+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803072+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346365",
+      "amount": 0.95,
+      "pending": false,
+      "date": "2024-04-05",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803824+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803827+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346394",
+      "amount": 1.24,
+      "pending": false,
+      "date": "2024-04-04",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805201+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805204+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346417",
+      "amount": 0.24,
+      "pending": false,
+      "date": "2024-04-02",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806311+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806315+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346398",
+      "amount": 1.83,
+      "pending": false,
+      "date": "2024-04-02",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805384+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805388+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346379",
+      "amount": 8.85,
+      "pending": false,
+      "date": "2024-04-02",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804492+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804496+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346351",
+      "amount": 0.55,
+      "pending": false,
+      "date": "2024-04-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803162+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803166+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346399",
+      "amount": 1.32,
+      "pending": false,
+      "date": "2024-03-30",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805429+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805432+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346416",
+      "amount": 0.4,
+      "pending": false,
+      "date": "2024-03-29",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806264+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806267+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346397",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2024-03-26",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805340+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805343+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346404",
+      "amount": 0.73,
+      "pending": false,
+      "date": "2024-03-18",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805655+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805659+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346387",
+      "amount": 1.21,
+      "pending": false,
+      "date": "2024-03-18",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804862+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804866+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346378",
+      "amount": 0.79,
+      "pending": false,
+      "date": "2024-03-18",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804446+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804450+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346372",
+      "amount": 1.75,
+      "pending": false,
+      "date": "2024-03-18",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804168+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804172+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346370",
+      "amount": 2.82,
+      "pending": false,
+      "date": "2024-03-15",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804065+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804071+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346428",
+      "amount": 0.1,
+      "pending": false,
+      "date": "2024-03-06",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806832+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806836+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346360",
+      "amount": 0.16,
+      "pending": false,
+      "date": "2024-03-06",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803590+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803594+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346420",
+      "amount": 1.38,
+      "pending": false,
+      "date": "2024-03-04",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806462+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806466+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346385",
+      "amount": 0.16,
+      "pending": false,
+      "date": "2024-03-03",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804773+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804776+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346367",
+      "amount": 0.28,
+      "pending": false,
+      "date": "2024-03-03",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803913+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803917+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346418",
+      "amount": 0.59,
+      "pending": false,
+      "date": "2024-03-02",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806358+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806362+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346380",
+      "amount": 0.48,
+      "pending": false,
+      "date": "2024-03-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804540+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804543+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346395",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2024-02-26",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805248+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805252+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346386",
+      "amount": 0.09,
+      "pending": false,
+      "date": "2024-02-13",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804818+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804821+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346414",
+      "amount": 0.42,
+      "pending": false,
+      "date": "2024-02-11",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806137+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806145+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346364",
+      "amount": 0.16,
+      "pending": false,
+      "date": "2024-02-10",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803778+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803782+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346358",
+      "amount": 1.05,
+      "pending": false,
+      "date": "2024-02-10",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803492+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803496+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346412",
+      "amount": 0.75,
+      "pending": false,
+      "date": "2024-02-09",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806022+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806026+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346392",
+      "amount": 2.68,
+      "pending": false,
+      "date": "2024-02-09",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805089+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805093+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346354",
+      "amount": 0.09,
+      "pending": false,
+      "date": "2024-02-09",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803307+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803311+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346350",
+      "amount": 0.46,
+      "pending": false,
+      "date": "2024-02-09",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803115+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803119+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346430",
+      "amount": 0.21,
+      "pending": false,
+      "date": "2024-02-08",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806921+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806926+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346389",
+      "amount": 0.51,
+      "pending": false,
+      "date": "2024-02-08",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804952+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804956+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346353",
+      "amount": 0.21,
+      "pending": false,
+      "date": "2024-02-08",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803257+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803262+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346408",
+      "amount": 0.1,
+      "pending": false,
+      "date": "2024-02-07",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805839+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805843+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346362",
+      "amount": 0.23,
+      "pending": false,
+      "date": "2024-02-07",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803685+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803689+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346427",
+      "amount": 0.33,
+      "pending": false,
+      "date": "2024-02-06",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806785+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806789+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346426",
+      "amount": 0.95,
+      "pending": false,
+      "date": "2024-02-06",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806741+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806745+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346423",
+      "amount": 1.83,
+      "pending": false,
+      "date": "2024-02-05",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806603+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806606+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346382",
+      "amount": 0.11,
+      "pending": false,
+      "date": "2024-02-05",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804631+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804634+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346376",
+      "amount": 0.65,
+      "pending": false,
+      "date": "2024-02-05",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804355+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804359+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346355",
+      "amount": 0.25,
+      "pending": false,
+      "date": "2024-02-05",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803353+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803357+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346421",
+      "amount": 2.94,
+      "pending": false,
+      "date": "2024-02-04",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806509+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806513+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346375",
+      "amount": 0.93,
+      "pending": false,
+      "date": "2024-02-04",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804310+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804314+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346410",
+      "amount": 0.63,
+      "pending": false,
+      "date": "2024-02-03",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805930+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805934+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346369",
+      "amount": 0.11,
+      "pending": false,
+      "date": "2024-02-03",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804006+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804010+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346347",
+      "amount": 0.44,
+      "pending": false,
+      "date": "2024-02-03",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.802938+00:00",
+      "updatedAt": "2024-10-23T02:34:18.802943+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346356",
+      "amount": 0.45,
+      "pending": false,
+      "date": "2024-02-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803400+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803403+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346400",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2024-01-26",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805474+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805478+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346366",
+      "amount": 0.42,
+      "pending": false,
+      "date": "2024-01-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803868+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803872+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346401",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2023-12-26",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805520+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805524+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346381",
+      "amount": 1.28,
+      "pending": false,
+      "date": "2023-12-19",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804585+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804589+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346403",
+      "amount": 0.5,
+      "pending": false,
+      "date": "2023-12-13",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805610+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805614+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346425",
+      "amount": 2.62,
+      "pending": false,
+      "date": "2023-12-04",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806696+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806700+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346402",
+      "amount": 3.87,
+      "pending": false,
+      "date": "2023-12-03",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805566+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805569+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346422",
+      "amount": 0.38,
+      "pending": false,
+      "date": "2023-12-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806556+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806560+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346371",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2023-11-25",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804121+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804125+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346429",
+      "amount": 0.4,
+      "pending": false,
+      "date": "2023-11-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806876+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806880+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346409",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2023-10-26",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805885+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805888+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346388",
+      "amount": 0.37,
+      "pending": false,
+      "date": "2023-10-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804907+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804910+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346413",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2023-09-26",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806068+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806072+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346346",
+      "amount": 2.14,
+      "pending": false,
+      "date": "2023-09-06",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.802832+00:00",
+      "updatedAt": "2024-10-23T02:34:18.802844+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346407",
+      "amount": 0.84,
+      "pending": false,
+      "date": "2023-09-05",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805793+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805797+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346393",
+      "amount": 0.24,
+      "pending": false,
+      "date": "2023-09-05",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805150+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805155+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346377",
+      "amount": 0.79,
+      "pending": false,
+      "date": "2023-09-05",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804401+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804405+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346390",
+      "amount": 0.38,
+      "pending": false,
+      "date": "2023-09-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804997+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805001+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346383",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2023-08-26",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804678+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804683+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346348",
+      "amount": 2.38,
+      "pending": false,
+      "date": "2023-08-17",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803014+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803019+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346357",
+      "amount": 2.25,
+      "pending": false,
+      "date": "2023-08-07",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803445+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803448+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346352",
+      "amount": 1.82,
+      "pending": false,
+      "date": "2023-08-02",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803209+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803213+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346424",
+      "amount": 0.35,
+      "pending": false,
+      "date": "2023-08-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806649+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806653+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346396",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2023-07-26",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805295+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805299+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346391",
+      "amount": 0.44,
+      "pending": false,
+      "date": "2023-07-04",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805044+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805048+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346361",
+      "amount": 0.34,
+      "pending": false,
+      "date": "2023-07-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803636+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803640+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346363",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2023-06-26",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.803732+00:00",
+      "updatedAt": "2024-10-23T02:34:18.803736+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346384",
+      "amount": 0.16,
+      "pending": false,
+      "date": "2023-06-05",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804726+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804729+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346419",
+      "amount": 0.36,
+      "pending": false,
+      "date": "2023-06-04",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806415+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806419+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346411",
+      "amount": 0.34,
+      "pending": false,
+      "date": "2023-06-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805976+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805980+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346373",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2023-05-25",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.804216+00:00",
+      "updatedAt": "2024-10-23T02:34:18.804220+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346406",
+      "amount": 0.16,
+      "pending": false,
+      "date": "2023-05-01",
+      "hideFromReports": false,
+      "plaidName": "Interest",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805746+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805750+00:00",
+      "category": {
+        "id": "172602204824252751",
+        "name": "Interest Gains",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Interest",
+        "id": "173151882269668249",
+        "transactionsCount": 185,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346405",
+      "amount": 0.08,
+      "pending": false,
+      "date": "2023-04-25",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.805701+00:00",
+      "updatedAt": "2024-10-23T02:34:18.805705+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    },
+    {
+      "id": "192256471258346415",
+      "amount": 100.0,
+      "pending": false,
+      "date": "2023-04-17",
+      "hideFromReports": false,
+      "plaidName": "Deposit",
+      "notes": null,
+      "isRecurring": false,
+      "reviewStatus": null,
+      "needsReview": false,
+      "attachments": [],
+      "isSplitTransaction": false,
+      "createdAt": "2024-10-23T02:34:18.806210+00:00",
+      "updatedAt": "2024-10-23T02:34:18.806216+00:00",
+      "category": {
+        "id": "172602204824252753",
+        "name": "Other Income",
+        "__typename": "Category"
+      },
+      "merchant": {
+        "name": "Deposit",
+        "id": "173151870654591862",
+        "transactionsCount": 7085,
+        "__typename": "Merchant"
+      },
+      "account": {
+        "id": "192256452809700235",
+        "displayName": "MC APPL SAV",
+        "__typename": "Account"
+      },
+      "tags": [],
+      "__typename": "Transaction"
+    }
+  ]
+}

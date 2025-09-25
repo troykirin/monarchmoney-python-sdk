@@ -13,4 +13,4 @@ from .monarchmoney import (
 )
 
 __version__ = "0.1.15"
-__author__ = "hammem"
+__author__ = "NabiaTech"

@@ -1,0 +1,13 @@
+{
+  "account": {
+    "id": "173151870336873380",
+    "name": "Apple cash old",
+    "balance": 61.94,
+    "type": "Cash",
+    "is_old": true
+  },
+  "export_date": "2025-08-09T22:54:56.996958",
+  "date_range": "2022-08-10 to 2025-08-09",
+  "transaction_count": 0,
+  "transactions": []
+}

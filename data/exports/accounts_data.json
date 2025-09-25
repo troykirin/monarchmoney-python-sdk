@@ -1,0 +1,1779 @@
+{
+  "accounts": [
+    {
+      "id": "172602654834274599",
+      "displayName": "TK Chase CHK (...9111)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": "9111",
+      "createdAt": "2024-03-20T04:05:18.855276+00:00",
+      "updatedAt": "2025-08-09T18:07:57.782434+00:00",
+      "displayLastUpdatedAt": "2025-08-09T18:07:57.782233+00:00",
+      "currentBalance": 8054.44,
+      "displayBalance": 8054.44,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "plaid",
+      "dataProviderAccountId": "o84J1d63neHK58o838NEfx1A4RdmNgfbey5Nr",
+      "isManual": false,
+      "transactionsCount": 1390,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 0,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75115054048600997",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "checking",
+        "display": "Checking",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "172602654088736954",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "PLAID",
+        "institution": {
+          "id": "75115054048600997",
+          "plaidInstitutionId": "ins_56",
+          "name": "Chase",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75115054048600997",
+        "name": "Chase",
+        "primaryColor": "#095aa6",
+        "url": "https://www.chase.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "172603079097561618",
+      "displayName": "SPOT",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": null,
+      "createdAt": "2024-03-20T04:12:03.463726+00:00",
+      "updatedAt": "2025-08-09T10:12:03.977790+00:00",
+      "displayLastUpdatedAt": "2025-08-09T10:12:03.977566+00:00",
+      "currentBalance": 0.0,
+      "displayBalance": 0.0,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": false,
+      "dataProvider": "plaid",
+      "dataProviderAccountId": "NNMrbze7nXF9P7bdwNd5COxjggVJkYIyn5zzk",
+      "isManual": false,
+      "transactionsCount": 0,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 1,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/111377695712907515",
+      "type": {
+        "name": "brokerage",
+        "display": "Investments",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "cryptocurrency",
+        "display": "Cryptocurrency",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "172603078468415773",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "PLAID",
+        "institution": {
+          "id": "111377695712907515",
+          "plaidInstitutionId": "ins_132612",
+          "name": "Binance US (Crypto Exchange)",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "111377695712907515",
+        "name": "Binance US (Crypto Exchange)",
+        "primaryColor": "#004966",
+        "url": "https://www.binance.us/en/home",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "172867576199623130",
+      "displayName": "MC BECU SAV (...1136)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": "1136",
+      "createdAt": "2024-03-23T02:16:07.551835+00:00",
+      "updatedAt": "2025-08-09T11:13:25.649517+00:00",
+      "displayLastUpdatedAt": "2025-08-09T11:13:25.649268+00:00",
+      "currentBalance": 0.0,
+      "displayBalance": 0.0,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "plaid",
+      "dataProviderAccountId": "w6jOP5eM91UEbNaX8NEwU6vg63qNZNCeQqYyZ",
+      "isManual": false,
+      "transactionsCount": 22,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 3,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75130089655881414",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "savings",
+        "display": "Savings",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "172867575512805582",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "PLAID",
+        "institution": {
+          "id": "75130089655881414",
+          "plaidInstitutionId": "ins_115585",
+          "name": "Boeing Employees Credit Union (BECU) - Personal Online Banking",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75130089655881414",
+        "name": "Boeing Employees Credit Union (BECU) - Personal Online Banking",
+        "primaryColor": "#d92b08",
+        "url": "https://www.becu.org/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "172867576299237851",
+      "displayName": "MC BECU CHK (...7848)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": "7848",
+      "createdAt": "2024-03-23T02:16:07.651586+00:00",
+      "updatedAt": "2025-08-09T11:13:26.064092+00:00",
+      "displayLastUpdatedAt": "2025-08-09T11:13:26.063842+00:00",
+      "currentBalance": 2213.29,
+      "displayBalance": 2203.29,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "plaid",
+      "dataProviderAccountId": "d8gVZoJp4mUvqLQxYLvmUAdaA8pD1DS8YVeyw",
+      "isManual": false,
+      "transactionsCount": 1236,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 4,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75130089655881414",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "checking",
+        "display": "Checking",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "172867575512805582",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "PLAID",
+        "institution": {
+          "id": "75130089655881414",
+          "plaidInstitutionId": "ins_115585",
+          "name": "Boeing Employees Credit Union (BECU) - Personal Online Banking",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75130089655881414",
+        "name": "Boeing Employees Credit Union (BECU) - Personal Online Banking",
+        "primaryColor": "#d92b08",
+        "url": "https://www.becu.org/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "173151870228870050",
+      "displayName": "Apple card old ",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": true,
+      "isAsset": false,
+      "mask": null,
+      "createdAt": "2024-03-26T05:34:51.470581+00:00",
+      "updatedAt": "2024-09-13T02:37:08.503520+00:00",
+      "displayLastUpdatedAt": "2024-05-16T23:23:51.768593+00:00",
+      "currentBalance": -5289.43,
+      "displayBalance": 5289.43,
+      "includeInNetWorth": false,
+      "hideFromList": true,
+      "hideTransactionsFromReports": true,
+      "includeBalanceInNetWorth": false,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.575B99E4-A18F-4871-BA9A-6D0371982D24",
+      "isManual": false,
+      "transactionsCount": 1741,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 2,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "credit",
+        "display": "Credit Cards",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "credit_card",
+        "display": "Credit Card",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "173151870310658979",
+      "displayName": "Apple savings old",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": true,
+      "isAsset": true,
+      "mask": null,
+      "createdAt": "2024-03-26T05:34:51.548140+00:00",
+      "updatedAt": "2024-09-13T02:37:43.763266+00:00",
+      "displayLastUpdatedAt": "2024-05-16T23:23:51.878900+00:00",
+      "currentBalance": 918.35,
+      "displayBalance": 918.35,
+      "includeInNetWorth": false,
+      "hideFromList": true,
+      "hideTransactionsFromReports": true,
+      "includeBalanceInNetWorth": false,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.36C95613-84E3-49F0-897E-E1F7B03BA660",
+      "isManual": false,
+      "transactionsCount": 862,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 5,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "savings",
+        "display": "Savings",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "173151870336873380",
+      "displayName": "Apple cash old",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": true,
+      "isAsset": true,
+      "mask": null,
+      "createdAt": "2024-03-26T05:34:51.573066+00:00",
+      "updatedAt": "2024-09-13T02:37:25.553857+00:00",
+      "displayLastUpdatedAt": "2024-05-16T23:23:51.984465+00:00",
+      "currentBalance": 61.94,
+      "displayBalance": 61.94,
+      "includeInNetWorth": false,
+      "hideFromList": true,
+      "hideTransactionsFromReports": true,
+      "includeBalanceInNetWorth": false,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.3661D15A-19A6-4D29-84E4-E512CE8E90AF",
+      "isManual": false,
+      "transactionsCount": 686,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 6,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "savings",
+        "display": "Savings",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "188632527868506371",
+      "displayName": "TK APPL SAV",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": null,
+      "createdAt": "2024-09-13T02:33:17.064449+00:00",
+      "updatedAt": "2025-01-17T15:25:35.613289+00:00",
+      "displayLastUpdatedAt": "2025-01-17T15:25:35.610500+00:00",
+      "currentBalance": 412.14,
+      "displayBalance": 412.14,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.0AF5FA54-22DD-4E6B-BD69-33A335AB0446",
+      "isManual": false,
+      "transactionsCount": 1492,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 7,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "savings",
+        "display": "Savings",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "188632527902060804",
+      "displayName": "TK APPL Cash",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": null,
+      "createdAt": "2024-09-13T02:33:17.095907+00:00",
+      "updatedAt": "2025-02-14T02:15:02.153522+00:00",
+      "displayLastUpdatedAt": "2024-12-10T09:40:34.241364+00:00",
+      "currentBalance": 31.94,
+      "displayBalance": 31.94,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.9B7B0469-2A8A-4DD1-871C-95DB2E1F151B",
+      "isManual": false,
+      "transactionsCount": 1,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 8,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "savings",
+        "display": "Savings",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "188632527921983749",
+      "displayName": "TK APPL CC",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": null,
+      "createdAt": "2024-09-13T02:33:17.115740+00:00",
+      "updatedAt": "2025-01-17T15:25:35.392094+00:00",
+      "displayLastUpdatedAt": "2025-01-17T15:25:35.389833+00:00",
+      "currentBalance": -5809.67,
+      "displayBalance": 5809.67,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.8BDE0B6E-19AE-4069-A3B7-5B274F43AAEE",
+      "isManual": false,
+      "transactionsCount": 2488,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 3,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "credit",
+        "display": "Credit Cards",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "credit_card",
+        "display": "Credit Card",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "188633135816094154",
+      "displayName": "PRIME SAVINGS (...2200)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": true,
+      "isAsset": true,
+      "mask": "2200",
+      "createdAt": "2024-09-13T02:42:56.848261+00:00",
+      "updatedAt": "2024-10-10T22:11:21.692486+00:00",
+      "displayLastUpdatedAt": "2024-10-10T22:11:21.692318+00:00",
+      "currentBalance": 0.0,
+      "displayBalance": 0.0,
+      "includeInNetWorth": false,
+      "hideFromList": true,
+      "hideTransactionsFromReports": true,
+      "includeBalanceInNetWorth": false,
+      "includeInGoalBalance": true,
+      "dataProvider": "plaid",
+      "dataProviderAccountId": "KXEpm481LOuwXK93byJrukrE6p6YL1umRYpdJ",
+      "isManual": false,
+      "transactionsCount": 0,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 9,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75138940978425048",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "savings",
+        "display": "Savings",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "188633134815752395",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "PLAID",
+        "institution": {
+          "id": "75138940978425048",
+          "plaidInstitutionId": "ins_114052",
+          "name": "Sound Credit Union",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75138940978425048",
+        "name": "Sound Credit Union",
+        "primaryColor": "#00668f",
+        "url": "http://www.soundcu.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "188633135930388939",
+      "displayName": "2024 TESLA MODEL Y 7SAYGDEEXRF (...2206)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": "2206",
+      "createdAt": "2024-09-13T02:42:56.956056+00:00",
+      "updatedAt": "2025-08-09T15:14:23.245576+00:00",
+      "displayLastUpdatedAt": "2025-08-09T15:14:23.245342+00:00",
+      "currentBalance": -39446.71,
+      "displayBalance": 39446.71,
+      "includeInNetWorth": false,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": false,
+      "includeInGoalBalance": false,
+      "dataProvider": "plaid",
+      "dataProviderAccountId": "keB7bj6QKvuK7XN8r0EpS4jOXrXQJBIv7wq9B",
+      "isManual": false,
+      "transactionsCount": 0,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 0,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75138940978425048",
+      "type": {
+        "name": "loan",
+        "display": "Loans",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "loan",
+        "display": "Loan",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "188633134815752395",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "PLAID",
+        "institution": {
+          "id": "75138940978425048",
+          "plaidInstitutionId": "ins_114052",
+          "name": "Sound Credit Union",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75138940978425048",
+        "name": "Sound Credit Union",
+        "primaryColor": "#00668f",
+        "url": "http://www.soundcu.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192255774589694645",
+      "displayName": "TK USBank CHK (...1686)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": "1686",
+      "createdAt": "2024-10-23T02:23:14.403400+00:00",
+      "updatedAt": "2025-08-09T13:10:26.036069+00:00",
+      "displayLastUpdatedAt": "2025-08-09T13:10:26.035856+00:00",
+      "currentBalance": 34.75,
+      "displayBalance": 34.75,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "finicity",
+      "dataProviderAccountId": "8019947873",
+      "isManual": false,
+      "transactionsCount": 51,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 10,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75126376078104689",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "checking",
+        "display": "Checking",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "192255774334890846",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "FINICITY",
+        "institution": {
+          "id": "75126376078104689",
+          "plaidInstitutionId": "ins_127990",
+          "name": "U.S. Bank",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75126376078104689",
+        "name": "U.S. Bank",
+        "primaryColor": "#102670",
+        "url": "https://www.usbank.com/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192255775408632502",
+      "displayName": "TK USBank CC (...1316)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": "1316",
+      "createdAt": "2024-10-23T02:23:15.183604+00:00",
+      "updatedAt": "2025-08-09T13:10:26.254814+00:00",
+      "displayLastUpdatedAt": "2025-08-09T13:10:26.254600+00:00",
+      "currentBalance": -10746.39,
+      "displayBalance": 10746.39,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "finicity",
+      "dataProviderAccountId": "8019947874",
+      "isManual": false,
+      "transactionsCount": 117,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 4,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75126376078104689",
+      "type": {
+        "name": "credit",
+        "display": "Credit Cards",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "credit_card",
+        "display": "Credit Card",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "192255774334890846",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "FINICITY",
+        "institution": {
+          "id": "75126376078104689",
+          "plaidInstitutionId": "ins_127990",
+          "name": "U.S. Bank",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75126376078104689",
+        "name": "U.S. Bank",
+        "primaryColor": "#102670",
+        "url": "https://www.usbank.com/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192255775784022711",
+      "displayName": "TK Discover (...7933)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": "XXXX-XXXX-XXXX-7933",
+      "createdAt": "2024-10-23T02:23:15.543379+00:00",
+      "updatedAt": "2025-08-09T05:19:10.951522+00:00",
+      "displayLastUpdatedAt": "2025-08-09T05:19:10.951265+00:00",
+      "currentBalance": -13143.11,
+      "displayBalance": 13143.11,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "finicity",
+      "dataProviderAccountId": "8019947817",
+      "isManual": false,
+      "transactionsCount": 36,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 5,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/127914627685494502",
+      "type": {
+        "name": "credit",
+        "display": "Credit Cards",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "credit_card",
+        "display": "Credit Card",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "192255774350619487",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "FINICITY",
+        "institution": {
+          "id": "127914627685494502",
+          "plaidInstitutionId": null,
+          "name": "Discover Bank",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "127914627685494502",
+        "name": "Discover Bank",
+        "primaryColor": "orange",
+        "url": "http://discoverbank.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192255784204087996",
+      "displayName": "MC CHASE SAPPH (...5184)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": "5184",
+      "createdAt": "2024-10-23T02:23:23.562514+00:00",
+      "updatedAt": "2025-08-09T21:42:12.604256+00:00",
+      "displayLastUpdatedAt": "2025-08-09T21:42:12.604075+00:00",
+      "currentBalance": -14549.56,
+      "displayBalance": 14549.56,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "plaid",
+      "dataProviderAccountId": "MLebaL4BdrTyPebnraaACnjNEEz5LDtg66Ar15",
+      "isManual": false,
+      "transactionsCount": 229,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 6,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75115054048600997",
+      "type": {
+        "name": "credit",
+        "display": "Credit Cards",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "credit_card",
+        "display": "Credit Card",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "192255783322235746",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "PLAID",
+        "institution": {
+          "id": "75115054048600997",
+          "plaidInstitutionId": "ins_56",
+          "name": "Chase",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75115054048600997",
+        "name": "Chase",
+        "primaryColor": "#095aa6",
+        "url": "https://www.chase.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192255939417453289",
+      "displayName": "MC Discover (...8414)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": "XXXX-XXXX-XXXX-8414",
+      "createdAt": "2024-10-23T02:25:51.595977+00:00",
+      "updatedAt": "2025-08-10T00:24:51.045084+00:00",
+      "displayLastUpdatedAt": "2025-08-10T00:24:51.044894+00:00",
+      "currentBalance": -12434.48,
+      "displayBalance": 12434.48,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "finicity",
+      "dataProviderAccountId": "8019948132",
+      "isManual": false,
+      "transactionsCount": 163,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 7,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75130066709197255",
+      "type": {
+        "name": "credit",
+        "display": "Credit Cards",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "credit_card",
+        "display": "Credit Card",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "192255939149017970",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "FINICITY",
+        "institution": {
+          "id": "75130066709197255",
+          "plaidInstitutionId": "ins_33",
+          "name": "Discover",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75130066709197255",
+        "name": "Discover",
+        "primaryColor": "#fb6605",
+        "url": "https://www.discover.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192255993237713659",
+      "displayName": "MC CITI CC (...5160)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": "5160",
+      "createdAt": "2024-10-23T02:26:42.922296+00:00",
+      "updatedAt": "2025-08-09T17:18:52.288230+00:00",
+      "displayLastUpdatedAt": "2025-08-09T17:18:52.287927+00:00",
+      "currentBalance": -3891.32,
+      "displayBalance": 3891.32,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "finicity",
+      "dataProviderAccountId": "8019948202",
+      "isManual": false,
+      "transactionsCount": 76,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 8,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75111197916293981",
+      "type": {
+        "name": "credit",
+        "display": "Credit Cards",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "credit_card",
+        "display": "Credit Card",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "192255993003881335",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "FINICITY",
+        "institution": {
+          "id": "75111197916293981",
+          "plaidInstitutionId": "ins_5",
+          "name": "Citibank Online",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75111197916293981",
+        "name": "Citibank Online",
+        "primaryColor": "#204081",
+        "url": "https://www.citi.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192256090848604951",
+      "displayName": "Alaska Airlines Visa Signature (...4607)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": "4607",
+      "createdAt": "2024-10-23T02:28:16.012044+00:00",
+      "updatedAt": "2025-08-09T16:03:41.852541+00:00",
+      "displayLastUpdatedAt": "2025-08-09T16:03:41.852296+00:00",
+      "currentBalance": -10583.16,
+      "displayBalance": 10583.16,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "plaid",
+      "dataProviderAccountId": "o3ZQN517yZSgjZoNdMkjUx71zBBN89UrLQVMB",
+      "isManual": false,
+      "transactionsCount": 75,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 9,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75130105427928310",
+      "type": {
+        "name": "credit",
+        "display": "Credit Cards",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "credit_card",
+        "display": "Credit Card",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "192256089343898495",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "PLAID",
+        "institution": {
+          "id": "75130105427928310",
+          "plaidInstitutionId": "ins_127989",
+          "name": "Bank of America",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75130105427928310",
+        "name": "Bank of America",
+        "primaryColor": "#e31837",
+        "url": "https://www.bankofamerica.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192256104041788187",
+      "displayName": "TK Venmo Checking",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": null,
+      "createdAt": "2024-10-23T02:28:28.593849+00:00",
+      "updatedAt": "2025-08-09T05:20:22.144750+00:00",
+      "displayLastUpdatedAt": "2025-08-09T05:20:22.144539+00:00",
+      "currentBalance": 10.49,
+      "displayBalance": 10.49,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "plaid",
+      "dataProviderAccountId": "PQRwwEYvBvidaPvNdrxyUYMy4JBq35i50PaVeA",
+      "isManual": false,
+      "transactionsCount": 167,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 11,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75186721685613910",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "checking",
+        "display": "Checking",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "192256103162033024",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "PLAID",
+        "institution": {
+          "id": "75186721685613910",
+          "plaidInstitutionId": "ins_132083",
+          "name": "Venmo - Personal",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75186721685613910",
+        "name": "Venmo - Personal",
+        "primaryColor": "#0075a3",
+        "url": "https://venmo.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192256104238920476",
+      "displayName": "TK Venmo CC (...7522)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": "7522",
+      "createdAt": "2024-10-23T02:28:28.781652+00:00",
+      "updatedAt": "2025-08-09T05:20:22.256473+00:00",
+      "displayLastUpdatedAt": "2025-08-09T05:20:22.256268+00:00",
+      "currentBalance": -584.21,
+      "displayBalance": 584.21,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "plaid",
+      "dataProviderAccountId": "qVpRRO6EXEt9Qpor9qm0CV30dDyzOpt5mpxQVB",
+      "isManual": false,
+      "transactionsCount": 69,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 10,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/75186721685613910",
+      "type": {
+        "name": "credit",
+        "display": "Credit Cards",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "credit_card",
+        "display": "Credit Card",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "192256103162033024",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "PLAID",
+        "institution": {
+          "id": "75186721685613910",
+          "plaidInstitutionId": "ins_132083",
+          "name": "Venmo - Personal",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "75186721685613910",
+        "name": "Venmo - Personal",
+        "primaryColor": "#0075a3",
+        "url": "https://venmo.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192256452775097226",
+      "displayName": "Monika - Apple Card",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": null,
+      "createdAt": "2024-10-23T02:34:01.171942+00:00",
+      "updatedAt": "2024-12-08T17:03:04.774876+00:00",
+      "displayLastUpdatedAt": "2024-12-08T17:03:04.772848+00:00",
+      "currentBalance": -6327.92,
+      "displayBalance": 6327.92,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.5BA3907D-DBD9-49C2-A5C5-9F7D05C4DBB3",
+      "isManual": false,
+      "transactionsCount": 200,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 11,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "credit",
+        "display": "Credit Cards",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "credit_card",
+        "display": "Credit Card",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192256452809700235",
+      "displayName": "MC APPL SAV",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": null,
+      "createdAt": "2024-10-23T02:34:01.204976+00:00",
+      "updatedAt": "2024-12-08T17:03:04.795972+00:00",
+      "displayLastUpdatedAt": "2024-12-08T17:03:04.792990+00:00",
+      "currentBalance": 187.68,
+      "displayBalance": 187.68,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.388FDA66-EE87-4C7A-9B12-D8AA8669468F",
+      "isManual": false,
+      "transactionsCount": 98,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 12,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "savings",
+        "display": "Savings",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192256452835914636",
+      "displayName": "TK APPL CASH",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": null,
+      "createdAt": "2024-10-23T02:34:01.230034+00:00",
+      "updatedAt": "2024-12-08T17:03:04.818477+00:00",
+      "displayLastUpdatedAt": "2024-12-08T17:03:04.814069+00:00",
+      "currentBalance": 0.0,
+      "displayBalance": 0.0,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.CC7ECA6D-F7EC-4F15-901E-EA301C846394",
+      "isManual": false,
+      "transactionsCount": 70,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 13,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "savings",
+        "display": "Savings",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "192256616311010247",
+      "displayName": "Mzda AUTO LOAN (...9414)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": "9414",
+      "createdAt": "2024-10-23T02:36:37.132575+00:00",
+      "updatedAt": "2025-08-09T03:26:52.660231+00:00",
+      "displayLastUpdatedAt": "2025-08-09T03:26:52.660003+00:00",
+      "currentBalance": -7132.28,
+      "displayBalance": 7132.28,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": false,
+      "dataProvider": "finicity",
+      "dataProviderAccountId": "8019949217",
+      "isManual": false,
+      "transactionsCount": 0,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 1,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/90993331736028672",
+      "type": {
+        "name": "loan",
+        "display": "Loans",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "loan",
+        "display": "Loan",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "192256616070886340",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "FINICITY",
+        "institution": {
+          "id": "90993331736028672",
+          "plaidInstitutionId": "ins_127991",
+          "name": "Wells Fargo",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "90993331736028672",
+        "name": "Wells Fargo",
+        "primaryColor": "#d11f37",
+        "url": "https://www.wellsfargo.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "193395144071820056",
+      "displayName": "Rent Rewards Account (...0501)",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": "0501",
+      "createdAt": "2024-11-04T16:13:01.814867+00:00",
+      "updatedAt": "2025-07-14T18:17:10.010797+00:00",
+      "displayLastUpdatedAt": "2025-02-03T09:45:20.636600+00:00",
+      "currentBalance": 50000.0,
+      "displayBalance": 50000.0,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "finicity",
+      "dataProviderAccountId": "8021590213",
+      "isManual": false,
+      "transactionsCount": 0,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 14,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/114967578113165794",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "checking",
+        "display": "Checking",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "193395143790801621",
+        "updateRequired": true,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "FINICITY",
+        "institution": {
+          "id": "114967578113165794",
+          "plaidInstitutionId": "ins_136100",
+          "name": "Bilt Rewards",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "114967578113165794",
+        "name": "Bilt Rewards",
+        "primaryColor": "#0075a3",
+        "url": "https://www.biltrewards.com",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "203020716950401183",
+      "displayName": "Savings",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": null,
+      "createdAt": "2025-02-18T22:07:23.451568+00:00",
+      "updatedAt": "2025-06-24T01:56:03.185633+00:00",
+      "displayLastUpdatedAt": "2025-06-24T01:56:03.173905+00:00",
+      "currentBalance": 679.24,
+      "displayBalance": 679.24,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.E4C192F4-2E62-4E12-9795-72D4FC61A7D3",
+      "isManual": false,
+      "transactionsCount": 1831,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 15,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "savings",
+        "display": "Savings",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "203020716995489952",
+      "displayName": "Apple Cash",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": null,
+      "createdAt": "2025-02-18T22:07:23.492510+00:00",
+      "updatedAt": "2025-06-16T12:44:06.161881+00:00",
+      "displayLastUpdatedAt": "2025-06-16T12:44:06.155808+00:00",
+      "currentBalance": 31.94,
+      "displayBalance": 31.94,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.C8E53184-4533-43BB-AB4E-ED41DF0DB987",
+      "isManual": false,
+      "transactionsCount": 691,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 16,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "depository",
+        "display": "Cash",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "savings",
+        "display": "Savings",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "203020717025898657",
+      "displayName": "Apple Card",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": false,
+      "mask": null,
+      "createdAt": "2025-02-18T22:07:23.522894+00:00",
+      "updatedAt": "2025-06-24T01:56:02.660963+00:00",
+      "displayLastUpdatedAt": "2025-06-24T01:56:02.657538+00:00",
+      "currentBalance": -4458.21,
+      "displayBalance": 4458.21,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": true,
+      "dataProvider": "apple_finance_kit",
+      "dataProviderAccountId": "172602204616634916.9A53E641-CF8A-4C52-8127-7D20CA5C1A93",
+      "isManual": false,
+      "transactionsCount": 2839,
+      "holdingsCount": 0,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 12,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/76459774629210153",
+      "type": {
+        "name": "credit",
+        "display": "Credit Cards",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "credit_card",
+        "display": "Credit Card",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "173151870200557919",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "APPLE_FINANCE_KIT",
+        "institution": {
+          "id": "76459774629210153",
+          "plaidInstitutionId": null,
+          "name": "Apple Card, Cash, and Savings",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "76459774629210153",
+        "name": "Apple Card, Cash, and Savings",
+        "primaryColor": "#FFFFFF",
+        "url": "https://www.apple.com/apple-card/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    },
+    {
+      "id": "204913045956178406",
+      "displayName": "Coinbase",
+      "syncDisabled": false,
+      "deactivatedAt": null,
+      "isHidden": false,
+      "isAsset": true,
+      "mask": null,
+      "createdAt": "2025-03-11T19:25:09.021089+00:00",
+      "updatedAt": "2025-03-11T19:25:09.021100+00:00",
+      "displayLastUpdatedAt": "2025-08-10T03:09:58.614998+00:00",
+      "currentBalance": null,
+      "displayBalance": 69.78134957726928,
+      "includeInNetWorth": true,
+      "hideFromList": false,
+      "hideTransactionsFromReports": false,
+      "includeBalanceInNetWorth": true,
+      "includeInGoalBalance": false,
+      "dataProvider": "coinbase",
+      "dataProviderAccountId": "a61a821c-e42d-5ac7-b1af-ce8e60f6ba09",
+      "isManual": false,
+      "transactionsCount": 0,
+      "holdingsCount": 7,
+      "manualInvestmentsTrackingMethod": null,
+      "order": 2,
+      "logoUrl": "https://api.monarchmoney.com/cdn-cgi/image/width=128/images/institution/90020903121021396",
+      "type": {
+        "name": "brokerage",
+        "display": "Investments",
+        "__typename": "AccountType"
+      },
+      "subtype": {
+        "name": "cryptocurrency",
+        "display": "Cryptocurrency",
+        "__typename": "AccountSubtype"
+      },
+      "credential": {
+        "id": "204913045941498863",
+        "updateRequired": false,
+        "disconnectedFromDataProviderAt": null,
+        "dataProvider": "COINBASE",
+        "institution": {
+          "id": "90020903121021396",
+          "plaidInstitutionId": null,
+          "name": "Coinbase",
+          "status": null,
+          "__typename": "Institution"
+        },
+        "__typename": "Credential"
+      },
+      "institution": {
+        "id": "90020903121021396",
+        "name": "Coinbase",
+        "primaryColor": "#0052FF",
+        "url": "https://www.coinbase.com/",
+        "__typename": "Institution"
+      },
+      "__typename": "Account"
+    }
+  ],
+  "householdPreferences": {
+    "id": "172602204616634916",
+    "accountGroupOrder": [],
+    "__typename": "HouseholdPreferences"
+  }
+}

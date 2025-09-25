@@ -1,0 +1,28 @@
+{
+  "backup_date": "2025-08-10T00:42:39.774446",
+  "accounts": {
+    "218625047395283101": {
+      "name": "Apple Card",
+      "safe_name": "Apple_Card_Aug10",
+      "balance": -6125.19,
+      "transaction_count": 2884,
+      "backup_file": "apple_card_backup/Apple_Card_Aug10_backup.json"
+    },
+    "203020717025898657": {
+      "name": "Apple Card prev",
+      "safe_name": "Apple_Card_prev",
+      "balance": -4458.21,
+      "transaction_count": 2839,
+      "backup_file": "apple_card_backup/Apple_Card_prev_backup.json"
+    },
+    "188632527921983749": {
+      "name": "TK APPL CC",
+      "safe_name": "TK_APPL_CC",
+      "balance": -5809.67,
+      "transaction_count": 2488,
+      "backup_file": "apple_card_backup/TK_APPL_CC_backup.json"
+    }
+  },
+  "total_transactions": 8211,
+  "migration_plan": "Full consolidation to Apple Card (Aug 10)"
+}

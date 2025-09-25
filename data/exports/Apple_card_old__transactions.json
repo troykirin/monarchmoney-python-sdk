@@ -1,0 +1,13 @@
+{
+  "account": {
+    "id": "173151870228870050",
+    "name": "Apple card old ",
+    "balance": -5289.43,
+    "type": "Credit Cards",
+    "is_old": true
+  },
+  "export_date": "2025-08-09T22:54:55.661259",
+  "date_range": "2022-08-10 to 2025-08-09",
+  "transaction_count": 0,
+  "transactions": []
+}
