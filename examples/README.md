@@ -24,7 +24,12 @@ Token-based authentication example showing how to:
 
 ## Automatic Session Management
 
-The main.py example automatically clears any existing session file before starting, ensuring a fresh login every time. This prevents issues with stale or corrupted session files.
+The main.py example includes intelligent session management with a 1-hour TTL (Time To Live):
+
+- **Valid sessions**: If a session file exists and is less than 1 hour old, it will be reused
+- **Expired sessions**: Sessions older than 1 hour are automatically cleared and require fresh login
+- **Corrupted sessions**: Invalid session files are automatically cleared
+- **Fresh login**: Only prompts for credentials when no valid session exists
 
 ### Manual Session Management
 

@@ -1,24 +1,46 @@
 import asyncio
 import os
 import json
+import pickle
 from pathlib import Path
-from datetime import datetime
+from datetime import datetime, timedelta
 
 from monarchmoney import MonarchMoney
 
 _SESSION_FILE_ = ".mm/mm_session.pickle"
 _CACHE_DIR_ = "cache"
+_SESSION_TTL_HOURS_ = 1
 
 
-def clear_session():
-    """Remove existing session file if it exists."""
+def check_session():
+    """Check if session file exists and is still valid (within TTL)."""
     session_path = Path(_SESSION_FILE_)
-    if session_path.exists():
-        print(f"🗑️  Clearing existing session file: {_SESSION_FILE_}")
-        session_path.unlink()
-        print("✅ Session cleared")
-    else:
+    
+    if not session_path.exists():
         print("ℹ️  No existing session file found")
+        return False
+    
+    try:
+        # Check session file modification time
+        session_mtime = datetime.fromtimestamp(session_path.stat().st_mtime)
+        now = datetime.now()
+        age = now - session_mtime
+        
+        if age < timedelta(hours=_SESSION_TTL_HOURS_):
+            remaining = timedelta(hours=_SESSION_TTL_HOURS_) - age
+            print(f"✅ Valid session found (expires in {remaining})")
+            return True
+        else:
+            print(f"⏰ Session expired (age: {age}), clearing...")
+            session_path.unlink()
+            print("🗑️  Session cleared")
+            return False
+            
+    except Exception as e:
+        print(f"❌ Error checking session: {e}")
+        print("🗑️  Clearing corrupted session...")
+        session_path.unlink()
+        return False
 
 
 def setup_cache():
@@ -31,8 +53,8 @@ def setup_cache():
 
 
 def main() -> None:
-    # Clear any existing session for fresh start
-    clear_session()
+    # Check if we have a valid session
+    has_valid_session = check_session()
     
     # Setup cache directory
     cache_path = setup_cache()
@@ -40,10 +62,15 @@ def main() -> None:
     # Use session file
     mm = MonarchMoney(session_file=_SESSION_FILE_)
     
-    # Perform fresh interactive login
-    print("🔐 Starting fresh login...")
-    asyncio.run(mm.interactive_login(use_saved_session=False, save_session=True))
-    print("✅ Login successful!")
+    # Only login if we don't have a valid session
+    if not has_valid_session:
+        print("🔐 Starting fresh login...")
+        asyncio.run(mm.interactive_login(use_saved_session=False, save_session=True))
+        print("✅ Login successful!")
+    else:
+        print("🔄 Using existing session...")
+        # Load the existing session
+        mm.load_session(_SESSION_FILE_)
 
     # Subscription details
     subs = asyncio.run(mm.get_subscription_details())
