@@ -13,3 +13,6 @@ lib
 __pycache__
 dist
 MANIFEST
+
+# Cache directory for examples
+cache/

@@ -1149,7 +1149,7 @@ class MonarchMoney(object):
                 __typename
               }
             }
-            
+
             fragment BudgetDataMonthlyAmountsFields on BudgetMonthlyAmounts {
               month
               plannedCashFlowAmount
@@ -1162,7 +1162,7 @@ class MonarchMoney(object):
               rolloverTargetAmount
               __typename
             }
-            
+
             fragment BudgetMonthlyAmountsByCategoryFields on BudgetCategoryMonthlyAmounts {
               category {
                 id
@@ -1174,7 +1174,7 @@ class MonarchMoney(object):
               }
               __typename
             }
-            
+
             fragment BudgetMonthlyAmountsByCategoryGroupFields on BudgetCategoryGroupMonthlyAmounts {
               categoryGroup {
                 id
@@ -1186,7 +1186,7 @@ class MonarchMoney(object):
               }
               __typename
             }
-            
+
             fragment BudgetMonthlyAmountsForFlexExpenseFields on BudgetFlexMonthlyAmounts {
               budgetVariability
               monthlyAmounts {
@@ -1195,7 +1195,7 @@ class MonarchMoney(object):
               }
               __typename
             }
-            
+
             fragment BudgetDataTotalsByMonthFields on BudgetTotals {
               actualAmount
               plannedAmount
@@ -1203,7 +1203,7 @@ class MonarchMoney(object):
               remainingAmount
               __typename
             }
-            
+
             fragment BudgetTotalsByMonthFields on BudgetMonthTotals {
               month
               totalIncome {
@@ -1228,7 +1228,7 @@ class MonarchMoney(object):
               }
               __typename
             }
-            
+
             fragment BudgetRolloverPeriodFields on BudgetRolloverPeriod {
               id
               startMonth
@@ -1239,7 +1239,7 @@ class MonarchMoney(object):
               type
               __typename
             }
-            
+
             fragment BudgetCategoryFields on Category {
               id
               name
@@ -1262,7 +1262,7 @@ class MonarchMoney(object):
               }
               __typename
             }
-            
+
             fragment BudgetDataFields on BudgetData {
               monthlyAmountsByCategory {
                 ...BudgetMonthlyAmountsByCategoryFields
@@ -1282,7 +1282,7 @@ class MonarchMoney(object):
               }
               __typename
             }
-            
+
             fragment BudgetCategoryGroupFields on CategoryGroup {
               id
               name
@@ -1307,7 +1307,7 @@ class MonarchMoney(object):
               }
               __typename
             }
-            
+
             fragment BudgetDataGoalsV2Fields on GoalV2 {
               id
               name
@@ -1328,7 +1328,7 @@ class MonarchMoney(object):
                 __typename
               }
               __typename
-            }            
+            }
             """
         )
 
@@ -1488,7 +1488,7 @@ class MonarchMoney(object):
               __typename
             }
           }
-    
+
           fragment TransactionOverviewFields on Transaction {
             id
             amount
@@ -1666,7 +1666,7 @@ class MonarchMoney(object):
               __typename
             }
           }
-  
+
           fragment PayloadErrorFields on PayloadError {
             fieldErrors {
               field
