@@ -21,3 +21,8 @@ cache/
 logs/
 *.log
 *.audit.json
+
+# Virtual environments
+.venv/
+venv/
+env/

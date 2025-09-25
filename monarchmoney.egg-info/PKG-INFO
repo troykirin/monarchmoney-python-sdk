@@ -1,3 +1,40 @@
+Metadata-Version: 2.4
+Name: monarchmoney
+Version: 0.1.0
+Summary: Monarch Money API for Python
+Home-page: https://github.com/NabiaTech/monarchmoney-python-sdk
+Author: NabiaTech
+Author-email: NabiaTech <contact@nabiatech.com>
+License: MIT
+Project-URL: Homepage, https://github.com/NabiaTech/monarchmoney-python-sdk
+Project-URL: Repository, https://github.com/NabiaTech/monarchmoney-python-sdk
+Project-URL: Issues, https://github.com/NabiaTech/monarchmoney-python-sdk/issues
+Keywords: monarch money,financial,money,personal finance
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp>=3.8.4
+Requires-Dist: gql>=3.4
+Requires-Dist: oathtool>=2.3.1
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: platform
+
 # Monarch Money
 
 Python library and CLI tool for accessing [Monarch Money](https://www.monarchmoney.com/referral/ngam2i643l) financial data.
@@ -43,29 +80,11 @@ monarchmoney sync --transaction-limit 100
 
 ## CLI Installation
 
-### Development Mode (Recommended)
-Using `uv` for fast, reliable dependency management:
-
+### Development Mode
+For development, create a symlink to `~/.local/bin`:
 ```bash
-# Install dependencies and create virtual environment
-uv sync
-
-# Run CLI commands through uv
-uv run monarchmoney --help
-uv run monarchmoney login
-uv run monarchmoney accounts
-```
-
-### Alternative: Symlink Method
-For system-wide access (requires virtual environment activation):
-
-```bash
-# Create symlink
-ln -sf $(pwd)/bin/monarchmoney ~/.local/bin/monarchmoney
-
-# Activate virtual environment first
-source .venv/bin/activate  # or use uv shell
-monarchmoney --help
+ln -sf /path/to/repo/bin/monarchmoney ~/.local/bin/monarchmoney
+pip install -e .  # Install in development mode
 ```
 
 ### Production Mode

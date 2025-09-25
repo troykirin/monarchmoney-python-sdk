@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "monarchmoney"
+version = "0.1.0"
+description = "Monarch Money API for Python"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "NabiaTech", email = "contact@nabiatech.com"}
+]
+keywords = ["monarch money", "financial", "money", "personal finance"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "aiohttp>=3.8.4",
+    "gql>=3.4",
+    "oathtool>=2.3.1",
+]
+
+[project.scripts]
+monarchmoney = "monarchmoney.cli:cli_main"
+
+[project.urls]
+Homepage = "https://github.com/NabiaTech/monarchmoney-python-sdk"
+Repository = "https://github.com/NabiaTech/monarchmoney-python-sdk"
+Issues = "https://github.com/NabiaTech/monarchmoney-python-sdk/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["monarchmoney*"]
+
+[tool.setuptools.package-data]
+monarchmoney = ["*.py", "*.json", "*.yaml", "*.yml"]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "black>=22.0.0",
+    "mypy>=1.0.0",
+    "ruff>=0.1.0",
+]
