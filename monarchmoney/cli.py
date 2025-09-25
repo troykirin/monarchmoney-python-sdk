@@ -97,7 +97,7 @@ class MonarchMoneyCLI:
             # Try to load the existing session, fallback to fresh login if it fails
             try:
                 self.mm.load_session(self.session_file)
-                
+
                 # Validate the session by making a test API call
                 try:
                     await self.mm.get_subscription_details()
@@ -110,7 +110,7 @@ class MonarchMoneyCLI:
                         return True
                     else:
                         raise api_error
-                        
+
             except Exception as e:
                 print(f"❌ Failed to load session: {e}")
                 print("🔐 Falling back to fresh login...")
