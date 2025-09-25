@@ -2922,6 +2922,7 @@ class MonarchMoney(object):
             url=MonarchMoneyEndpoints.getGraphQL(),
             headers=self._headers,
             timeout=self._timeout,
+            ssl=True,  # Enable SSL certificate verification
         )
         return Client(
             transport=transport,
