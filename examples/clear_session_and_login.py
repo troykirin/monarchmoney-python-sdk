@@ -29,15 +29,15 @@ def clear_session():
 async def fresh_login():
     """Perform a fresh login without using saved session."""
     print("🔐 Starting fresh login...")
-    
+
     # Create MonarchMoney instance
     mm = MonarchMoney(session_file=SESSION_FILE)
-    
+
     # Perform interactive login without using saved session
     await mm.interactive_login(use_saved_session=False, save_session=True)
-    
+
     print("✅ Login successful!")
-    
+
     # Test the connection by getting accounts
     try:
         accounts = await mm.get_accounts()
@@ -52,10 +52,10 @@ def main():
     """Main function to clear session and login fresh."""
     print("🚀 MonarchMoney Fresh Login Tool")
     print("=" * 40)
-    
+
     # Clear existing session
     clear_session()
-    
+
     # Perform fresh login
     try:
         success = asyncio.run(fresh_login())

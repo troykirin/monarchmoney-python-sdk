@@ -1,23 +1,35 @@
 import asyncio
 import os
 import json
+from pathlib import Path
 
 from monarchmoney import MonarchMoney
 
 _SESSION_FILE_ = ".mm/mm_session.pickle"
 
 
+def clear_session():
+    """Remove existing session file if it exists."""
+    session_path = Path(_SESSION_FILE_)
+    if session_path.exists():
+        print(f"🗑️  Clearing existing session file: {_SESSION_FILE_}")
+        session_path.unlink()
+        print("✅ Session cleared")
+    else:
+        print("ℹ️  No existing session file found")
+
+
 def main() -> None:
+    # Clear any existing session for fresh start
+    clear_session()
+    
     # Use session file
     mm = MonarchMoney(session_file=_SESSION_FILE_)
     
-    # Try interactive login with saved session first, but allow fresh login if needed
-    try:
-        asyncio.run(mm.interactive_login(use_saved_session=True, save_session=True))
-    except Exception as e:
-        print(f"❌ Login with saved session failed: {e}")
-        print("🔄 Trying fresh login...")
-        asyncio.run(mm.interactive_login(use_saved_session=False, save_session=True))
+    # Perform fresh interactive login
+    print("🔐 Starting fresh login...")
+    asyncio.run(mm.interactive_login(use_saved_session=False, save_session=True))
+    print("✅ Login successful!")
 
     # Subscription details
     subs = asyncio.run(mm.get_subscription_details())
