@@ -150,7 +150,11 @@ class MonarchMoneyCLI:
         else:
             print("\n🏦 Accounts:")
             for account in accounts.get("accounts", []):
-                print(f"   {account.get('displayName', 'Unknown')}: ${account.get('currentBalance', 0):.2f}")
+                display_name = account.get('displayName', 'Unknown')
+                balance = account.get('currentBalance', 0)
+                if balance is None:
+                    balance = 0
+                print(f"   {display_name}: ${balance:.2f}")
 
     async def cmd_transactions(self, args) -> None:
         """Handle transactions command."""
@@ -184,6 +188,10 @@ class MonarchMoneyCLI:
                 name = budget.get("name", "Unknown")
                 amount = budget.get("amount", 0)
                 spent = budget.get("spent", 0)
+                if amount is None:
+                    amount = 0
+                if spent is None:
+                    spent = 0
                 print(f"   {name}: ${spent:.2f} / ${amount:.2f}")
 
     async def cmd_cashflow(self, args) -> None:
@@ -205,6 +213,17 @@ class MonarchMoneyCLI:
                 expense = summary.get("summary", {}).get("sumExpense", 0)
                 savings = summary.get("summary", {}).get("savings", 0)
                 savings_rate = summary.get("summary", {}).get("savingsRate", 0)
+                
+                # Handle None values
+                if income is None:
+                    income = 0
+                if expense is None:
+                    expense = 0
+                if savings is None:
+                    savings = 0
+                if savings_rate is None:
+                    savings_rate = 0
+                    
                 print(f"   Income: ${income:.2f}")
                 print(f"   Expense: ${expense:.2f}")
                 print(f"   Savings: ${savings:.2f} ({savings_rate:.0%})")

@@ -1,0 +1,2 @@
+[console_scripts]
+monarchmoney = monarchmoney.cli:cli_main
