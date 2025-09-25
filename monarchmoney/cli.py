@@ -213,7 +213,7 @@ class MonarchMoneyCLI:
                 expense = summary.get("summary", {}).get("sumExpense", 0)
                 savings = summary.get("summary", {}).get("savings", 0)
                 savings_rate = summary.get("summary", {}).get("savingsRate", 0)
-                
+
                 # Handle None values
                 if income is None:
                     income = 0
@@ -223,7 +223,7 @@ class MonarchMoneyCLI:
                     savings = 0
                 if savings_rate is None:
                     savings_rate = 0
-                    
+
                 print(f"   Income: ${income:.2f}")
                 print(f"   Expense: ${expense:.2f}")
                 print(f"   Savings: ${savings:.2f} ({savings_rate:.0%})")
