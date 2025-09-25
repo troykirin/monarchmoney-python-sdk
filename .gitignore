@@ -16,3 +16,8 @@ MANIFEST
 
 # Cache directory for examples
 cache/
+
+# Log files and audit logs
+logs/
+*.log
+*.audit.json

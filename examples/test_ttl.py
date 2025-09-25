@@ -26,17 +26,17 @@ def check_session():
     session_path = Path(_SESSION_FILE_)
     ttl_hours = get_session_ttl()
     env = os.getenv("MONARCH_ENV", "development").lower()
-    
+
     if not session_path.exists():
         print("ℹ️  No existing session file found")
         return False
-    
+
     try:
         # Check session file modification time
         session_mtime = datetime.fromtimestamp(session_path.stat().st_mtime)
         now = datetime.now()
         age = now - session_mtime
-        
+
         if age < timedelta(hours=ttl_hours):
             remaining = timedelta(hours=ttl_hours) - age
             print(f"✅ Valid session found (expires in {remaining}) [{env} mode]")
@@ -46,7 +46,7 @@ def check_session():
             session_path.unlink()
             print("🗑️  Session cleared")
             return False
-            
+
     except Exception as e:
         print(f"❌ Error checking session: {e}")
         print("🗑️  Clearing corrupted session...")
@@ -58,35 +58,35 @@ def test_ttl_logic():
     """Test the TTL session management logic."""
     print("🧪 Testing TTL Session Management")
     print("=" * 50)
-    
+
     # Test both environments
     for env_name, env_value in [("Development", "development"), ("Production", "production")]:
         print(f"\n🔧 Testing {env_name} Environment:")
         print("-" * 30)
-        
+
         # Set environment
         os.environ["MONARCH_ENV"] = env_value
         ttl_hours = get_session_ttl()
         print(f"   TTL: {ttl_hours} hour(s) ({int(ttl_hours * 60)} minutes)")
-        
+
         # Clean up any existing session
         session_path = Path(_SESSION_FILE_)
         if session_path.exists():
             session_path.unlink()
             print("🗑️  Cleaned up existing session")
-        
+
         # Test 1: No session file
         print("\n1️⃣  Testing with no session file:")
         result = check_session()
         print(f"   Result: {result} (should be False)")
-        
+
         # Test 2: Create a fresh session file
         print("\n2️⃣  Creating fresh session file:")
         session_path.parent.mkdir(exist_ok=True)
         session_path.touch()
         result = check_session()
         print(f"   Result: {result} (should be True)")
-        
+
         # Test 3: Simulate expired session
         print("\n3️⃣  Simulating expired session:")
         # Set modification time to exceed TTL
@@ -94,7 +94,7 @@ def test_ttl_logic():
         os.utime(session_path, (expired_time, expired_time))
         result = check_session()
         print(f"   Result: {result} (should be False)")
-        
+
         # Test 4: Create session file just under TTL limit
         print("\n4️⃣  Testing session just under TTL limit:")
         session_path.touch()
@@ -103,7 +103,7 @@ def test_ttl_logic():
         os.utime(session_path, (recent_time, recent_time))
         result = check_session()
         print(f"   Result: {result} (should be True)")
-    
+
     print(f"\n✅ TTL Session Management Test Complete")
     print(f"   Session file: {_SESSION_FILE_}")
     print(f"   Environment variable: MONARCH_ENV")
