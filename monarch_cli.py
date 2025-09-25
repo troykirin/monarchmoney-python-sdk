@@ -62,7 +62,7 @@ class MonarchCLI:
             print(f"💳 Total Liabilities: ${total_liabilities:,.2f}")
             print(f"📈 Net Worth: ${(total_assets - total_liabilities):,.2f}")
 
-            print(f"\n✅ Data saved to accounts_data.json")
+            print("\n✅ Data saved to accounts_data.json")
 
         except Exception as e:
             print(f"\n❌ Error: {e}")

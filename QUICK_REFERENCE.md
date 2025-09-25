@@ -15,7 +15,7 @@ total_liabilities = 0
 for account in accounts.get('accounts', []):
     balance = account.get('currentBalance', 0)
     is_asset = account.get('isAsset', True)
-    
+
     if is_asset:
         total_assets += balance
     else:
