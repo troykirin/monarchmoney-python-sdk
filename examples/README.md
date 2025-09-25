@@ -22,6 +22,15 @@ Token-based authentication example showing how to:
 2. Configure your environment variables in `.envrc`
 3. Run examples: `python examples/main.py`
 
+## Troubleshooting Login Issues
+
+If you encounter login problems, it might be due to a stale session file:
+
+1. **Clear session and login fresh**: `python examples/clear_session_and_login.py`
+2. **Or manually remove session**: `rm -rf .mm/` then run `python examples/main.py`
+
+The main.py example now automatically handles session issues by falling back to fresh login if the saved session fails.
+
 ## Environment Variables
 
 Make sure to set these in your `.envrc` file:

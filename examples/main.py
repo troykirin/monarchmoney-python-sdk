@@ -10,7 +10,14 @@ _SESSION_FILE_ = ".mm/mm_session.pickle"
 def main() -> None:
     # Use session file
     mm = MonarchMoney(session_file=_SESSION_FILE_)
-    asyncio.run(mm.interactive_login())
+    
+    # Try interactive login with saved session first, but allow fresh login if needed
+    try:
+        asyncio.run(mm.interactive_login(use_saved_session=True, save_session=True))
+    except Exception as e:
+        print(f"❌ Login with saved session failed: {e}")
+        print("🔄 Trying fresh login...")
+        asyncio.run(mm.interactive_login(use_saved_session=False, save_session=True))
 
     # Subscription details
     subs = asyncio.run(mm.get_subscription_details())
