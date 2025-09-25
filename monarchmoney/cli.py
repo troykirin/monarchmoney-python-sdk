@@ -97,7 +97,20 @@ class MonarchMoneyCLI:
             # Try to load the existing session, fallback to fresh login if it fails
             try:
                 self.mm.load_session(self.session_file)
-                return True
+                
+                # Validate the session by making a test API call
+                try:
+                    await self.mm.get_subscription_details()
+                    return True
+                except Exception as api_error:
+                    if "401" in str(api_error) or "Unauthorized" in str(api_error):
+                        print("🔑 Session token expired, refreshing authentication...")
+                        await self.mm.interactive_login(use_saved_session=False, save_session=True)
+                        print("✅ Login successful!")
+                        return True
+                    else:
+                        raise api_error
+                        
             except Exception as e:
                 print(f"❌ Failed to load session: {e}")
                 print("🔐 Falling back to fresh login...")
