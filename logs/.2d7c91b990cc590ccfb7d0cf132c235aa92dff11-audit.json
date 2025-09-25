@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/Users/tryk/dev/Finance/monarchmoney/logs/.2d7c91b990cc590ccfb7d0cf132c235aa92dff11-audit.json",
+    "files": [
+        {
+            "date": 1758830813037,
+            "name": "/Users/tryk/dev/Finance/monarchmoney/logs/mcp-puppeteer-2025-09-25.log",
+            "hash": "5cb7c922534dd13d99a3b20bbe60a66f3fb0ebd7778192f99e1c16499f4f5c78"
+        }
+    ],
+    "hashType": "sha256"
+}
