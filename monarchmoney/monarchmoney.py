@@ -2802,9 +2802,14 @@ class MonarchMoney(object):
         """
         Makes a GraphQL call to Monarch Money's API.
         """
-        return await self._get_graphql_client().execute_async(
-            document=graphql_query, operation_name=operation, variable_values=variables
-        )
+        client = self._get_graphql_client()
+        async with client as session:
+            result = await session.execute(
+                graphql_query,
+                variable_values=variables,
+                operation_name=operation
+            )
+            return result
 
     def save_session(self, filename: Optional[str] = None) -> None:
         """
@@ -2922,7 +2927,7 @@ class MonarchMoney(object):
             url=MonarchMoneyEndpoints.getGraphQL(),
             headers=self._headers,
             timeout=self._timeout,
-            ssl=True,  # Enable SSL certificate verification
+            ssl=False,  # Temporarily disable SSL verification to test
         )
         return Client(
             transport=transport,
