@@ -24,12 +24,35 @@ Token-based authentication example showing how to:
 
 ## Automatic Session Management
 
-The main.py example includes intelligent session management with a 1-hour TTL (Time To Live):
+The main.py example includes intelligent session management with environment-based TTL (Time To Live):
 
-- **Valid sessions**: If a session file exists and is less than 1 hour old, it will be reused
-- **Expired sessions**: Sessions older than 1 hour are automatically cleared and require fresh login
+### Development Mode (Default)
+- **TTL**: 1 hour (60 minutes)
+- **Valid sessions**: Sessions less than 1 hour old are reused
+- **Expired sessions**: Sessions older than 1 hour are automatically cleared
+
+### Production Mode
+- **TTL**: 15 minutes (0.25 hours)
+- **Valid sessions**: Sessions less than 15 minutes old are reused
+- **Expired sessions**: Sessions older than 15 minutes are automatically cleared
+
+### Environment Configuration
+Set the `MONARCH_ENV` environment variable to control TTL:
+```bash
+# Development mode (1 hour TTL) - default
+export MONARCH_ENV=development
+python examples/main.py
+
+# Production mode (15 minutes TTL)
+export MONARCH_ENV=production
+python examples/main.py
+```
+
+### Features
+- **Automatic reuse**: Valid sessions are reused without prompting for login
 - **Corrupted sessions**: Invalid session files are automatically cleared
 - **Fresh login**: Only prompts for credentials when no valid session exists
+- **Environment awareness**: Shows current mode in session status messages
 
 ### Manual Session Management
 

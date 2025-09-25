@@ -9,12 +9,22 @@ from monarchmoney import MonarchMoney
 
 _SESSION_FILE_ = ".mm/mm_session.pickle"
 _CACHE_DIR_ = "cache"
-_SESSION_TTL_HOURS_ = 1
+
+# TTL based on environment
+def get_session_ttl():
+    """Get session TTL based on environment."""
+    env = os.getenv("MONARCH_ENV", "development").lower()
+    if env == "production":
+        return 0.25  # 15 minutes
+    else:
+        return 1.0   # 1 hour for development
 
 
 def check_session():
     """Check if session file exists and is still valid (within TTL)."""
     session_path = Path(_SESSION_FILE_)
+    ttl_hours = get_session_ttl()
+    env = os.getenv("MONARCH_ENV", "development").lower()
     
     if not session_path.exists():
         print("ℹ️  No existing session file found")
@@ -26,12 +36,12 @@ def check_session():
         now = datetime.now()
         age = now - session_mtime
         
-        if age < timedelta(hours=_SESSION_TTL_HOURS_):
-            remaining = timedelta(hours=_SESSION_TTL_HOURS_) - age
-            print(f"✅ Valid session found (expires in {remaining})")
+        if age < timedelta(hours=ttl_hours):
+            remaining = timedelta(hours=ttl_hours) - age
+            print(f"✅ Valid session found (expires in {remaining}) [{env} mode]")
             return True
         else:
-            print(f"⏰ Session expired (age: {age}), clearing...")
+            print(f"⏰ Session expired (age: {age}), clearing... [{env} mode]")
             session_path.unlink()
             print("🗑️  Session cleared")
             return False
@@ -55,13 +65,13 @@ def setup_cache():
 def main() -> None:
     # Check if we have a valid session
     has_valid_session = check_session()
-    
+
     # Setup cache directory
     cache_path = setup_cache()
-    
+
     # Use session file
     mm = MonarchMoney(session_file=_SESSION_FILE_)
-    
+
     # Only login if we don't have a valid session
     if not has_valid_session:
         print("🔐 Starting fresh login...")
@@ -69,8 +79,14 @@ def main() -> None:
         print("✅ Login successful!")
     else:
         print("🔄 Using existing session...")
-        # Load the existing session
-        mm.load_session(_SESSION_FILE_)
+        # Try to load the existing session, fallback to fresh login if it fails
+        try:
+            mm.load_session(_SESSION_FILE_)
+        except Exception as e:
+            print(f"❌ Failed to load session: {e}")
+            print("🔐 Falling back to fresh login...")
+            asyncio.run(mm.interactive_login(use_saved_session=False, save_session=True))
+            print("✅ Login successful!")
 
     # Subscription details
     subs = asyncio.run(mm.get_subscription_details())
@@ -153,7 +169,7 @@ def main() -> None:
     print(income_categories)
     print()
     print(expense_category_groups)
-    
+
     print(f"\n📁 All data files saved to: {cache_path}")
     print("Files created:")
     for file_path in cache_path.glob("*.json"):
