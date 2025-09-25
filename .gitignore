@@ -1,18 +1,31 @@
-bin
-build
-include
-lib
-.env
-.DS_Store
-.mm
-.monarchmoney.egg-info
-.pytest_cache
-.venv
-.vscode
-*.pyc
-__pycache__
-dist
+# Build artifacts
+bin/
+build/
+include/
+lib/
+dist/
 MANIFEST
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+.pytest_cache/
+.monarchmoney.egg-info/
+
+# Environment and config
+.env
+.envrc.local
+.DS_Store
+.vscode/
+.idea/
+
+# Monarch Money specific
+.mm/
 
 # Cache directory for examples
 cache/
